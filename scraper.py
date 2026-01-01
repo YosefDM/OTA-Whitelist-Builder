@@ -65,7 +65,7 @@ class OTAWhitelistBuilder:
     def search_flights(self, route: Dict) -> Optional[List[Dict]]:
         """
         Step 1: Search for flights to get booking tokens
-        Returns list of flights with booking_token
+        For one-way flights, booking_token is returned directly
         """
         params = {
             'engine': 'google_flights',
@@ -73,11 +73,11 @@ class OTAWhitelistBuilder:
             'departure_id': route['departure_id'],
             'arrival_id': route['arrival_id'],
             'outbound_date': route['outbound_date'],
-            'return_date': route['return_date'],
+            # Note: return_date is omitted for one-way flights
             'currency': self.config['scraping']['currency'],
             'hl': self.config['scraping']['hl'],
             'gl': self.config['scraping']['gl'],
-            'type': self.config['scraping']['type'],
+            'type': self.config['scraping']['type'],  # Should be "2" for one-way
             'travel_class': self.config['scraping']['travel_class'],
             'adults': self.config['scraping']['adults']
         }
@@ -103,10 +103,44 @@ class OTAWhitelistBuilder:
             self.logger.error(f"Error searching flights for route {route['id']}: {e}")
             return None
 
+    def get_return_flights(self, departure_token: str, route: Dict) -> Optional[List[Dict]]:
+        """
+        Step 2: Get return flights using departure token
+        Returns list of return flights with booking_token
+        """
+        params = {
+            'engine': 'google_flights',
+            'api_key': self.config['serpapi']['api_key'],
+            'departure_token': departure_token,
+            'currency': self.config['scraping']['currency'],
+            'hl': self.config['scraping']['hl']
+        }
+
+        try:
+            self.logger.info(f"Getting return flights for route {route['id']}")
+            response = requests.get(self.config['serpapi']['base_url'], params=params)
+            response.raise_for_status()
+            self.api_calls_made += 1
+
+            data = response.json()
+
+            # Extract return flights
+            return_flights = []
+            for flight_list in ['best_flights', 'other_flights']:
+                if flight_list in data:
+                    return_flights.extend(data[flight_list])
+
+            self.logger.info(f"Found {len(return_flights)} return flight options for route {route['id']}")
+            return return_flights
+
+        except requests.exceptions.RequestException as e:
+            self.logger.error(f"Error getting return flights for route {route['id']}: {e}")
+            return None
+
     def get_booking_options(self, booking_token: str, route: Dict) -> Optional[Dict]:
         """
-        Step 2: Get booking options using the booking token
-        Returns booking options data
+        Step 3: Get booking options using the booking token
+        Returns booking options data with OTAs
         """
         params = {
             'engine': 'google_flights',
@@ -224,28 +258,30 @@ class OTAWhitelistBuilder:
     def scrape_all_routes(self, routes: List[Dict], limit: Optional[int] = None):
         """
         Main scraping loop - processes all routes
+        For one-way flights, this is a 2-step process:
+        1. Search flights → get booking_token
+        2. Use booking_token → get booking options with OTAs
         """
         routes_to_process = routes[:limit] if limit else routes
         total_routes = len(routes_to_process)
 
         self.logger.info(f"Starting to scrape {total_routes} routes")
-        self.logger.info(f"Estimated API calls: {total_routes * 2}")
+        self.logger.info(f"Estimated API calls: {total_routes * 2}")  # 2 calls per route for one-way
 
         for idx, route in enumerate(routes_to_process, 1):
             self.logger.info(f"\n{'='*60}")
             self.logger.info(f"Processing route {idx}/{total_routes}: {route['description']}")
             self.logger.info(f"{'='*60}")
 
-            # Step 1: Search for flights
+            # Step 1: Search for flights (one-way)
             flights = self.search_flights(route)
             if not flights:
                 self.logger.warning(f"No flights found for route {route['id']}, skipping")
                 continue
 
-            # Use the first flight's booking token
-            # (You could also sample multiple flights for better coverage)
+            # Get booking_token from first flight
             if 'booking_token' not in flights[0]:
-                self.logger.warning(f"No booking token found for route {route['id']}, skipping")
+                self.logger.warning(f"No booking_token found for route {route['id']}, skipping")
                 continue
 
             booking_token = flights[0]['booking_token']
@@ -253,7 +289,7 @@ class OTAWhitelistBuilder:
             # Rate limiting
             time.sleep(self.config['scraping']['rate_limit_delay'])
 
-            # Step 2: Get booking options
+            # Step 2: Get booking options (with OTAs)
             booking_data = self.get_booking_options(booking_token, route)
             if not booking_data:
                 self.logger.warning(f"No booking data found for route {route['id']}, skipping")
@@ -268,9 +304,6 @@ class OTAWhitelistBuilder:
 
             # Step 3: Extract OTAs
             self.extract_otas(booking_data, route)
-
-            # Rate limiting
-            time.sleep(self.config['scraping']['rate_limit_delay'])
 
             # Progress update
             self.logger.info(f"Progress: {idx}/{total_routes} routes processed")
@@ -316,7 +349,7 @@ class OTAWhitelistBuilder:
             json.dump({
                 'metadata': {
                     'generated_at': datetime.now().isoformat(),
-                    'total_routes_scraped': self.api_calls_made // 2,
+                    'total_routes_scraped': self.api_calls_made // 2,  # 2 calls per route (one-way)
                     'api_calls_made': self.api_calls_made,
                     'total_otas': len(whitelist),
                     'filters_applied': self.config['filters']
@@ -349,7 +382,7 @@ class OTAWhitelistBuilder:
         print("OTA WHITELIST SUMMARY")
         print("="*80)
         print(f"Total OTAs found: {len(whitelist)}")
-        print(f"Total routes scraped: {self.api_calls_made // 2}")
+        print(f"Total routes scraped: {self.api_calls_made // 2}")  # 2 calls per route (one-way)
         print(f"Total API calls made: {self.api_calls_made}")
         print("\n" + "-"*80)
         print("TOP 20 OTAs BY FREQUENCY:")

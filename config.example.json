@@ -7,12 +7,15 @@
     "currency": "USD",
     "hl": "en",
     "gl": "us",
-    "type": "1",
+    "type": "2",
     "travel_class": "1",
     "adults": "1",
     "rate_limit_delay": 2,
     "max_retries": 3,
     "retry_delay": 5
+  },
+  "comments": {
+    "type": "1=Round trip (3 API calls/route), 2=One way (2 API calls/route), 3=Multi-city"
   },
   "output": {
     "whitelist_json": "ota_whitelist.json",
