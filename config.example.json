@@ -1,0 +1,28 @@
+{
+  "serpapi": {
+    "api_key": "YOUR_SERPAPI_KEY_HERE",
+    "base_url": "https://serpapi.com/search.json"
+  },
+  "scraping": {
+    "currency": "USD",
+    "hl": "en",
+    "gl": "us",
+    "type": "1",
+    "travel_class": "1",
+    "adults": "1",
+    "rate_limit_delay": 2,
+    "max_retries": 3,
+    "retry_delay": 5
+  },
+  "output": {
+    "whitelist_json": "ota_whitelist.json",
+    "whitelist_csv": "ota_whitelist.csv",
+    "raw_data": "raw_booking_data.json",
+    "logs": "scraping_logs.txt"
+  },
+  "filters": {
+    "exclude_airlines": true,
+    "min_frequency": 1,
+    "normalize_names": true
+  }
+}

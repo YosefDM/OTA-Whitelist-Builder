@@ -1,0 +1,589 @@
+{
+  "routes": [
+    {
+      "id": 1,
+      "category": "US Domestic - Major Hubs",
+      "departure_id": "JFK",
+      "arrival_id": "LAX",
+      "outbound_date": "2026-02-15",
+      "return_date": "2026-02-22",
+      "description": "NYC to Los Angeles"
+    },
+    {
+      "id": 2,
+      "category": "US Domestic - Major Hubs",
+      "departure_id": "ORD",
+      "arrival_id": "SFO",
+      "outbound_date": "2026-03-10",
+      "return_date": "2026-03-17",
+      "description": "Chicago to San Francisco"
+    },
+    {
+      "id": 3,
+      "category": "US Domestic - Major Hubs",
+      "departure_id": "ATL",
+      "arrival_id": "SEA",
+      "outbound_date": "2026-04-05",
+      "return_date": "2026-04-12",
+      "description": "Atlanta to Seattle"
+    },
+    {
+      "id": 4,
+      "category": "US Domestic - Major Hubs",
+      "departure_id": "DFW",
+      "arrival_id": "MIA",
+      "outbound_date": "2026-05-20",
+      "return_date": "2026-05-27",
+      "description": "Dallas to Miami"
+    },
+    {
+      "id": 5,
+      "category": "US Domestic - Major Hubs",
+      "departure_id": "DEN",
+      "arrival_id": "BOS",
+      "outbound_date": "2026-06-14",
+      "return_date": "2026-06-21",
+      "description": "Denver to Boston"
+    },
+    {
+      "id": 6,
+      "category": "US Domestic - Secondary",
+      "departure_id": "PHX",
+      "arrival_id": "LAS",
+      "outbound_date": "2026-02-28",
+      "return_date": "2026-03-07",
+      "description": "Phoenix to Las Vegas"
+    },
+    {
+      "id": 7,
+      "category": "US Domestic - Secondary",
+      "departure_id": "MCO",
+      "arrival_id": "EWR",
+      "outbound_date": "2026-07-10",
+      "return_date": "2026-07-17",
+      "description": "Orlando to Newark"
+    },
+    {
+      "id": 8,
+      "category": "US Domestic - Secondary",
+      "departure_id": "MSP",
+      "arrival_id": "PDX",
+      "outbound_date": "2026-08-05",
+      "return_date": "2026-08-12",
+      "description": "Minneapolis to Portland"
+    },
+    {
+      "id": 9,
+      "category": "US Domestic - Secondary",
+      "departure_id": "DTW",
+      "arrival_id": "SAN",
+      "outbound_date": "2026-09-15",
+      "return_date": "2026-09-22",
+      "description": "Detroit to San Diego"
+    },
+    {
+      "id": 10,
+      "category": "US Domestic - Secondary",
+      "departure_id": "CLT",
+      "arrival_id": "AUS",
+      "outbound_date": "2026-10-10",
+      "return_date": "2026-10-17",
+      "description": "Charlotte to Austin"
+    },
+    {
+      "id": 11,
+      "category": "US Domestic - Regional",
+      "departure_id": "BNA",
+      "arrival_id": "SLC",
+      "outbound_date": "2026-03-20",
+      "return_date": "2026-03-27",
+      "description": "Nashville to Salt Lake City"
+    },
+    {
+      "id": 12,
+      "category": "US Domestic - Regional",
+      "departure_id": "RDU",
+      "arrival_id": "TPA",
+      "outbound_date": "2026-04-18",
+      "return_date": "2026-04-25",
+      "description": "Raleigh to Tampa"
+    },
+    {
+      "id": 13,
+      "category": "US Domestic - Regional",
+      "departure_id": "STL",
+      "arrival_id": "MSY",
+      "outbound_date": "2026-05-08",
+      "return_date": "2026-05-15",
+      "description": "St Louis to New Orleans"
+    },
+    {
+      "id": 14,
+      "category": "US Domestic - Regional",
+      "departure_id": "PIT",
+      "arrival_id": "IAH",
+      "outbound_date": "2026-06-05",
+      "return_date": "2026-06-12",
+      "description": "Pittsburgh to Houston"
+    },
+    {
+      "id": 15,
+      "category": "US Domestic - Regional",
+      "departure_id": "SMF",
+      "arrival_id": "BWI",
+      "outbound_date": "2026-07-22",
+      "return_date": "2026-07-29",
+      "description": "Sacramento to Baltimore"
+    },
+    {
+      "id": 16,
+      "category": "US to Europe - Major",
+      "departure_id": "JFK",
+      "arrival_id": "LHR",
+      "outbound_date": "2026-02-10",
+      "return_date": "2026-02-24",
+      "description": "NYC to London"
+    },
+    {
+      "id": 17,
+      "category": "US to Europe - Major",
+      "departure_id": "EWR",
+      "arrival_id": "CDG",
+      "outbound_date": "2026-03-15",
+      "return_date": "2026-03-29",
+      "description": "Newark to Paris"
+    },
+    {
+      "id": 18,
+      "category": "US to Europe - Major",
+      "departure_id": "BOS",
+      "arrival_id": "FCO",
+      "outbound_date": "2026-04-20",
+      "return_date": "2026-05-04",
+      "description": "Boston to Rome"
+    },
+    {
+      "id": 19,
+      "category": "US to Europe - Major",
+      "departure_id": "ORD",
+      "arrival_id": "MAD",
+      "outbound_date": "2026-05-12",
+      "return_date": "2026-05-26",
+      "description": "Chicago to Madrid"
+    },
+    {
+      "id": 20,
+      "category": "US to Europe - Major",
+      "departure_id": "LAX",
+      "arrival_id": "AMS",
+      "outbound_date": "2026-06-08",
+      "return_date": "2026-06-22",
+      "description": "Los Angeles to Amsterdam"
+    },
+    {
+      "id": 21,
+      "category": "US to Europe - Secondary",
+      "departure_id": "SFO",
+      "arrival_id": "FRA",
+      "outbound_date": "2026-07-05",
+      "return_date": "2026-07-19",
+      "description": "San Francisco to Frankfurt"
+    },
+    {
+      "id": 22,
+      "category": "US to Europe - Secondary",
+      "departure_id": "MIA",
+      "arrival_id": "MUC",
+      "outbound_date": "2026-08-10",
+      "return_date": "2026-08-24",
+      "description": "Miami to Munich"
+    },
+    {
+      "id": 23,
+      "category": "US to Europe - Secondary",
+      "departure_id": "ATL",
+      "arrival_id": "BCN",
+      "outbound_date": "2026-09-05",
+      "return_date": "2026-09-19",
+      "description": "Atlanta to Barcelona"
+    },
+    {
+      "id": 24,
+      "category": "US to Europe - Secondary",
+      "departure_id": "DFW",
+      "arrival_id": "LIS",
+      "outbound_date": "2026-10-01",
+      "return_date": "2026-10-15",
+      "description": "Dallas to Lisbon"
+    },
+    {
+      "id": 25,
+      "category": "US to Europe - Secondary",
+      "departure_id": "SEA",
+      "arrival_id": "LGW",
+      "outbound_date": "2026-11-10",
+      "return_date": "2026-11-24",
+      "description": "Seattle to London Gatwick"
+    },
+    {
+      "id": 26,
+      "category": "US to Europe - Other",
+      "departure_id": "IAD",
+      "arrival_id": "VIE",
+      "outbound_date": "2026-03-25",
+      "return_date": "2026-04-08",
+      "description": "Washington DC to Vienna"
+    },
+    {
+      "id": 27,
+      "category": "US to Europe - Other",
+      "departure_id": "PHL",
+      "arrival_id": "DUB",
+      "outbound_date": "2026-06-20",
+      "return_date": "2026-07-04",
+      "description": "Philadelphia to Dublin"
+    },
+    {
+      "id": 28,
+      "category": "US to Europe - Other",
+      "departure_id": "DEN",
+      "arrival_id": "ZRH",
+      "outbound_date": "2026-07-15",
+      "return_date": "2026-07-29",
+      "description": "Denver to Zurich"
+    },
+    {
+      "id": 29,
+      "category": "US to Europe - Other",
+      "departure_id": "DTW",
+      "arrival_id": "CPH",
+      "outbound_date": "2026-08-22",
+      "return_date": "2026-09-05",
+      "description": "Detroit to Copenhagen"
+    },
+    {
+      "id": 30,
+      "category": "US to Europe - Other",
+      "departure_id": "MSP",
+      "arrival_id": "ARN",
+      "outbound_date": "2026-09-12",
+      "return_date": "2026-09-26",
+      "description": "Minneapolis to Stockholm"
+    },
+    {
+      "id": 31,
+      "category": "US to Asia",
+      "departure_id": "LAX",
+      "arrival_id": "NRT",
+      "outbound_date": "2026-02-18",
+      "return_date": "2026-03-04",
+      "description": "Los Angeles to Tokyo"
+    },
+    {
+      "id": 32,
+      "category": "US to Asia",
+      "departure_id": "SFO",
+      "arrival_id": "BKK",
+      "outbound_date": "2026-03-22",
+      "return_date": "2026-04-05",
+      "description": "San Francisco to Bangkok"
+    },
+    {
+      "id": 33,
+      "category": "US to Asia",
+      "departure_id": "JFK",
+      "arrival_id": "HKG",
+      "outbound_date": "2026-04-10",
+      "return_date": "2026-04-24",
+      "description": "NYC to Hong Kong"
+    },
+    {
+      "id": 34,
+      "category": "US to Asia",
+      "departure_id": "SEA",
+      "arrival_id": "SIN",
+      "outbound_date": "2026-05-15",
+      "return_date": "2026-05-29",
+      "description": "Seattle to Singapore"
+    },
+    {
+      "id": 35,
+      "category": "US to Asia",
+      "departure_id": "ORD",
+      "arrival_id": "ICN",
+      "outbound_date": "2026-06-18",
+      "return_date": "2026-07-02",
+      "description": "Chicago to Seoul"
+    },
+    {
+      "id": 36,
+      "category": "US to Asia",
+      "departure_id": "EWR",
+      "arrival_id": "DEL",
+      "outbound_date": "2026-07-08",
+      "return_date": "2026-07-22",
+      "description": "Newark to Delhi"
+    },
+    {
+      "id": 37,
+      "category": "US to Asia",
+      "departure_id": "IAH",
+      "arrival_id": "PVG",
+      "outbound_date": "2026-08-12",
+      "return_date": "2026-08-26",
+      "description": "Houston to Shanghai"
+    },
+    {
+      "id": 38,
+      "category": "US to Asia",
+      "departure_id": "DFW",
+      "arrival_id": "HND",
+      "outbound_date": "2026-09-20",
+      "return_date": "2026-10-04",
+      "description": "Dallas to Tokyo Haneda"
+    },
+    {
+      "id": 39,
+      "category": "US to Asia",
+      "departure_id": "SFO",
+      "arrival_id": "MNL",
+      "outbound_date": "2026-10-15",
+      "return_date": "2026-10-29",
+      "description": "San Francisco to Manila"
+    },
+    {
+      "id": 40,
+      "category": "US to Asia",
+      "departure_id": "LAX",
+      "arrival_id": "TPE",
+      "outbound_date": "2026-11-05",
+      "return_date": "2026-11-19",
+      "description": "Los Angeles to Taipei"
+    },
+    {
+      "id": 41,
+      "category": "Budget Carriers",
+      "departure_id": "FLL",
+      "arrival_id": "LGA",
+      "outbound_date": "2026-02-20",
+      "return_date": "2026-02-27",
+      "description": "Fort Lauderdale to NYC LaGuardia (Spirit/Frontier)"
+    },
+    {
+      "id": 42,
+      "category": "Budget Carriers",
+      "departure_id": "BWI",
+      "arrival_id": "MCO",
+      "outbound_date": "2026-03-12",
+      "return_date": "2026-03-19",
+      "description": "Baltimore to Orlando (Southwest)"
+    },
+    {
+      "id": 43,
+      "category": "Budget Carriers",
+      "departure_id": "OAK",
+      "arrival_id": "LAS",
+      "outbound_date": "2026-04-22",
+      "return_date": "2026-04-29",
+      "description": "Oakland to Las Vegas (Southwest)"
+    },
+    {
+      "id": 44,
+      "category": "Budget Carriers",
+      "departure_id": "DAL",
+      "arrival_id": "HOU",
+      "outbound_date": "2026-05-16",
+      "return_date": "2026-05-23",
+      "description": "Dallas Love to Houston Hobby (Southwest)"
+    },
+    {
+      "id": 45,
+      "category": "Budget Carriers",
+      "departure_id": "MDW",
+      "arrival_id": "DEN",
+      "outbound_date": "2026-06-10",
+      "return_date": "2026-06-17",
+      "description": "Chicago Midway to Denver (Southwest/Frontier)"
+    },
+    {
+      "id": 46,
+      "category": "Budget Carriers",
+      "departure_id": "ISP",
+      "arrival_id": "RSW",
+      "outbound_date": "2026-07-12",
+      "return_date": "2026-07-19",
+      "description": "Islip to Fort Myers (Frontier)"
+    },
+    {
+      "id": 47,
+      "category": "Budget Carriers",
+      "departure_id": "BDL",
+      "arrival_id": "PBI",
+      "outbound_date": "2026-08-08",
+      "return_date": "2026-08-15",
+      "description": "Hartford to West Palm Beach (Spirit)"
+    },
+    {
+      "id": 48,
+      "category": "Budget Carriers",
+      "departure_id": "PVD",
+      "arrival_id": "FLL",
+      "outbound_date": "2026-09-18",
+      "return_date": "2026-09-25",
+      "description": "Providence to Fort Lauderdale (Spirit)"
+    },
+    {
+      "id": 49,
+      "category": "Budget Carriers",
+      "departure_id": "ABQ",
+      "arrival_id": "ONT",
+      "outbound_date": "2026-10-22",
+      "return_date": "2026-10-29",
+      "description": "Albuquerque to Ontario CA (Frontier)"
+    },
+    {
+      "id": 50,
+      "category": "Budget Carriers",
+      "departure_id": "SJC",
+      "arrival_id": "SNA",
+      "outbound_date": "2026-11-14",
+      "return_date": "2026-11-21",
+      "description": "San Jose to Orange County (Southwest)"
+    },
+    {
+      "id": 51,
+      "category": "Regional",
+      "departure_id": "ANC",
+      "arrival_id": "SEA",
+      "outbound_date": "2026-02-25",
+      "return_date": "2026-03-04",
+      "description": "Anchorage to Seattle (Alaska)"
+    },
+    {
+      "id": 52,
+      "category": "Regional",
+      "departure_id": "PDX",
+      "arrival_id": "ANC",
+      "outbound_date": "2026-04-15",
+      "return_date": "2026-04-22",
+      "description": "Portland to Anchorage (Alaska)"
+    },
+    {
+      "id": 53,
+      "category": "Regional",
+      "departure_id": "BOS",
+      "arrival_id": "BUF",
+      "outbound_date": "2026-05-20",
+      "return_date": "2026-05-27",
+      "description": "Boston to Buffalo (JetBlue)"
+    },
+    {
+      "id": 54,
+      "category": "Regional",
+      "departure_id": "JFK",
+      "arrival_id": "SYR",
+      "outbound_date": "2026-06-25",
+      "return_date": "2026-07-02",
+      "description": "NYC to Syracuse (JetBlue)"
+    },
+    {
+      "id": 55,
+      "category": "Regional",
+      "departure_id": "BZN",
+      "arrival_id": "SLC",
+      "outbound_date": "2026-07-18",
+      "return_date": "2026-07-25",
+      "description": "Bozeman to Salt Lake City"
+    },
+    {
+      "id": 56,
+      "category": "Regional",
+      "departure_id": "GEG",
+      "arrival_id": "SEA",
+      "outbound_date": "2026-08-15",
+      "return_date": "2026-08-22",
+      "description": "Spokane to Seattle (Alaska)"
+    },
+    {
+      "id": 57,
+      "category": "Regional",
+      "departure_id": "BOI",
+      "arrival_id": "PDX",
+      "outbound_date": "2026-09-10",
+      "return_date": "2026-09-17",
+      "description": "Boise to Portland"
+    },
+    {
+      "id": 58,
+      "category": "Regional",
+      "departure_id": "FAI",
+      "arrival_id": "ANC",
+      "outbound_date": "2026-10-12",
+      "return_date": "2026-10-19",
+      "description": "Fairbanks to Anchorage (Alaska)"
+    },
+    {
+      "id": 59,
+      "category": "Regional",
+      "departure_id": "PSP",
+      "arrival_id": "SFO",
+      "outbound_date": "2026-11-08",
+      "return_date": "2026-11-15",
+      "description": "Palm Springs to San Francisco"
+    },
+    {
+      "id": 60,
+      "category": "Regional",
+      "departure_id": "RNO",
+      "arrival_id": "LAX",
+      "outbound_date": "2026-11-22",
+      "return_date": "2026-11-29",
+      "description": "Reno to Los Angeles"
+    },
+    {
+      "id": 61,
+      "category": "International-International",
+      "departure_id": "LHR",
+      "arrival_id": "CDG",
+      "outbound_date": "2026-03-18",
+      "return_date": "2026-03-25",
+      "description": "London to Paris"
+    },
+    {
+      "id": 62,
+      "category": "International-International",
+      "departure_id": "FCO",
+      "arrival_id": "BCN",
+      "outbound_date": "2026-04-28",
+      "return_date": "2026-05-05",
+      "description": "Rome to Barcelona"
+    },
+    {
+      "id": 63,
+      "category": "International-International",
+      "departure_id": "HKG",
+      "arrival_id": "NRT",
+      "outbound_date": "2026-06-15",
+      "return_date": "2026-06-22",
+      "description": "Hong Kong to Tokyo"
+    },
+    {
+      "id": 64,
+      "category": "International-International",
+      "departure_id": "DXB",
+      "arrival_id": "LHR",
+      "outbound_date": "2026-08-05",
+      "return_date": "2026-08-12",
+      "description": "Dubai to London"
+    },
+    {
+      "id": 65,
+      "category": "International-International",
+      "departure_id": "SIN",
+      "arrival_id": "BKK",
+      "outbound_date": "2026-10-20",
+      "return_date": "2026-10-27",
+      "description": "Singapore to Bangkok"
+    }
+  ]
+}
