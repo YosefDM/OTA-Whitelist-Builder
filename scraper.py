@@ -141,13 +141,22 @@ class OTAWhitelistBuilder:
         """
         Step 3: Get booking options using the booking token
         Returns booking options data with OTAs
+
+        IMPORTANT: SerpApi requires flight parameters to be included with booking_token
         """
         params = {
             'engine': 'google_flights',
             'api_key': self.config['serpapi']['api_key'],
             'booking_token': booking_token,
+            'departure_id': route['departure_id'],
+            'arrival_id': route['arrival_id'],
+            'outbound_date': route['outbound_date'],
             'currency': self.config['scraping']['currency'],
-            'hl': self.config['scraping']['hl']
+            'hl': self.config['scraping']['hl'],
+            'gl': self.config['scraping']['gl'],
+            'type': self.config['scraping']['type'],
+            'travel_class': self.config['scraping']['travel_class'],
+            'adults': self.config['scraping']['adults']
         }
 
         try:
