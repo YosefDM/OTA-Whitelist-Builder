@@ -18,7 +18,9 @@ params = {
     'outbound_date': '2026-02-15',
     'return_date': '2026-02-22',
     'currency': 'USD',
-    'hl': 'en'
+    'hl': 'en',
+    'deep_search': 'true',
+    'show_hidden': 'true'
 }
 
 print("Fetching flight data...")

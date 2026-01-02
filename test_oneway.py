@@ -18,7 +18,9 @@ params = {
     'outbound_date': '2026-02-15',
     'type': '2',  # ONE WAY
     'currency': 'USD',
-    'hl': 'en'
+    'hl': 'en',
+    'deep_search': 'true',
+    'show_hidden': 'true'
 }
 
 print("Fetching ONE-WAY flight data...")
@@ -56,7 +58,9 @@ if 'best_flights' in data and data['best_flights']:
             'type': '2',  # ONE WAY
             'currency': 'USD',
             'hl': 'en',
-            'gl': 'us'
+            'gl': 'us',
+            'deep_search': 'true',
+            'show_hidden': 'true'
         }
 
         booking_response = requests.get('https://serpapi.com/search.json', params=booking_params)

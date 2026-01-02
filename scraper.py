@@ -28,7 +28,8 @@ class OTAWhitelistBuilder:
             'last_seen': None,
             'routes': [],
             'is_airline': False,
-            'normalized_name': None
+            'normalized_name': None,
+            'logo': None
         })
         self.raw_booking_data = []
         self.api_calls_made = 0
@@ -77,6 +78,8 @@ class OTAWhitelistBuilder:
             'currency': self.config['scraping']['currency'],
             'hl': self.config['scraping']['hl'],
             'gl': self.config['scraping']['gl'],
+            'deep_search': 'true',
+            'show_hidden': 'true',
             'type': self.config['scraping']['type'],  # Should be "2" for one-way
             'travel_class': self.config['scraping']['travel_class'],
             'adults': self.config['scraping']['adults']
@@ -113,7 +116,9 @@ class OTAWhitelistBuilder:
             'api_key': self.config['serpapi']['api_key'],
             'departure_token': departure_token,
             'currency': self.config['scraping']['currency'],
-            'hl': self.config['scraping']['hl']
+            'hl': self.config['scraping']['hl'],
+            'deep_search': 'true',
+            'show_hidden': 'true'
         }
 
         try:
@@ -154,6 +159,8 @@ class OTAWhitelistBuilder:
             'currency': self.config['scraping']['currency'],
             'hl': self.config['scraping']['hl'],
             'gl': self.config['scraping']['gl'],
+            'deep_search': 'true',
+            'show_hidden': 'true',
             'type': self.config['scraping']['type'],
             'travel_class': self.config['scraping']['travel_class'],
             'adults': self.config['scraping']['adults']
@@ -211,9 +218,17 @@ class OTAWhitelistBuilder:
         # Normalize the name
         normalized_name = self.normalize_ota_name(ota_name)
 
+        # Get logo URL (first logo from airline_logos array)
+        logo_url = None
+        if 'airline_logos' in option and option['airline_logos']:
+            logo_url = option['airline_logos'][0]
+
         # Update OTA data
         if self.ota_data[ota_name]['count'] == 0:
             self.ota_data[ota_name]['first_seen'] = current_time
+            # Store logo on first encounter
+            if logo_url:
+                self.ota_data[ota_name]['logo'] = logo_url
 
         self.ota_data[ota_name]['count'] += 1
         self.ota_data[ota_name]['last_seen'] = current_time
@@ -341,6 +356,7 @@ class OTAWhitelistBuilder:
                     'first_seen': data['first_seen'],
                     'last_seen': data['last_seen'],
                     'is_airline': data['is_airline'],
+                    'logo': data['logo'],
                     'routes_count': len(data['routes']),
                     'sample_routes': data['routes'][:5]  # First 5 routes as samples
                 })
@@ -371,11 +387,12 @@ class OTAWhitelistBuilder:
         csv_file = self.config['output']['whitelist_csv']
         with open(csv_file, 'w') as f:
             # Header
-            f.write("Name,Normalized Name,Frequency,Is Airline,Routes Count,First Seen,Last Seen\n")
+            f.write("Name,Normalized Name,Frequency,Is Airline,Logo,Routes Count,First Seen,Last Seen\n")
             # Data
             for ota in whitelist:
+                logo = ota['logo'] if ota['logo'] else ''
                 f.write(f'"{ota["name"]}","{ota["normalized_name"]}",{ota["frequency"]},'
-                       f'{ota["is_airline"]},{ota["routes_count"]},'
+                       f'{ota["is_airline"]},"{logo}",{ota["routes_count"]},'
                        f'"{ota["first_seen"]}","{ota["last_seen"]}"\n')
         self.logger.info(f"Saved CSV whitelist to {csv_file}")
 

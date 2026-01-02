@@ -1,0 +1,369 @@
+{
+  "metadata": {
+    "generated_at": "2026-01-02T00:51:36.466394",
+    "total_routes_scraped": 3,
+    "api_calls_made": 6,
+    "total_otas": 17,
+    "filters_applied": {
+      "exclude_airlines": false,
+      "min_frequency": 1,
+      "normalize_names": true
+    }
+  },
+  "whitelist": [
+    {
+      "name": "JetBlue",
+      "normalized_name": "jetblue",
+      "frequency": 4,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": true,
+      "logo": "https://www.gstatic.com/flights/airline_logos/70px/B6.png",
+      "routes_count": 4,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 154
+        },
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 199
+        },
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 234
+        },
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 378
+        }
+      ]
+    },
+    {
+      "name": "United",
+      "normalized_name": "united",
+      "frequency": 4,
+      "first_seen": "2026-01-02T00:51:35.352691",
+      "last_seen": "2026-01-02T00:51:35.352691",
+      "is_airline": true,
+      "logo": "https://www.gstatic.com/flights/airline_logos/70px/UA.png",
+      "routes_count": 4,
+      "sample_routes": [
+        {
+          "route_id": 2,
+          "description": "Chicago to San Francisco",
+          "category": "US Domestic - Major Hubs",
+          "price": 124
+        },
+        {
+          "route_id": 2,
+          "description": "Chicago to San Francisco",
+          "category": "US Domestic - Major Hubs",
+          "price": 169
+        },
+        {
+          "route_id": 2,
+          "description": "Chicago to San Francisco",
+          "category": "US Domestic - Major Hubs",
+          "price": 209
+        },
+        {
+          "route_id": 2,
+          "description": "Chicago to San Francisco",
+          "category": "US Domestic - Major Hubs",
+          "price": 353
+        }
+      ]
+    },
+    {
+      "name": "Alaska",
+      "normalized_name": "alaska",
+      "frequency": 3,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": true,
+      "logo": "https://www.gstatic.com/flights/airline_logos/70px/AS.png",
+      "routes_count": 3,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 159
+        },
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 209
+        },
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 469
+        }
+      ]
+    },
+    {
+      "name": "ly.com",
+      "normalized_name": "ly",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/LY_COM_TRAVELGO.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 148
+        }
+      ]
+    },
+    {
+      "name": "Priceline",
+      "normalized_name": "priceline",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/PRICELINE.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 154
+        }
+      ]
+    },
+    {
+      "name": "Trip.com",
+      "normalized_name": "trip",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/CTRIP.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 340
+        }
+      ]
+    },
+    {
+      "name": "CheapOair",
+      "normalized_name": "cheapoair",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/CHEAPOAIR.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 154
+        }
+      ]
+    },
+    {
+      "name": "HopeGoo",
+      "normalized_name": "hopegoo",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/LY_COM_HOPEGOO.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 151
+        }
+      ]
+    },
+    {
+      "name": "Fliggy",
+      "normalized_name": "fliggy",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/FLIGGY.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 157
+        }
+      ]
+    },
+    {
+      "name": "BudgetAir",
+      "normalized_name": "budgetair",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/TRAVIX_BUDGETAIR.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 166
+        }
+      ]
+    },
+    {
+      "name": "kiss&fly",
+      "normalized_name": "kissfly",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:34.237067",
+      "last_seen": "2026-01-02T00:51:34.237067",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/KISSANDFLY.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 1,
+          "description": "NYC to Los Angeles",
+          "category": "US Domestic - Major Hubs",
+          "price": 168
+        }
+      ]
+    },
+    {
+      "name": "Hawaiian",
+      "normalized_name": "hawaiian",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": true,
+      "logo": "https://www.gstatic.com/flights/airline_logos/70px/HA.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 159
+        }
+      ]
+    },
+    {
+      "name": "Travomint",
+      "normalized_name": "travomint",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/TRAVOMINT.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 156
+        }
+      ]
+    },
+    {
+      "name": "Ovago",
+      "normalized_name": "ovago",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/OVAGO.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 158
+        }
+      ]
+    },
+    {
+      "name": "business-class.com",
+      "normalized_name": "businessclass",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/BUSINESSCLASS.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 359
+        }
+      ]
+    },
+    {
+      "name": "FlightHub",
+      "normalized_name": "flighthub",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/FLIGHTHUB.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 159
+        }
+      ]
+    },
+    {
+      "name": "Justfly.com",
+      "normalized_name": "justfly",
+      "frequency": 1,
+      "first_seen": "2026-01-02T00:51:36.463619",
+      "last_seen": "2026-01-02T00:51:36.463619",
+      "is_airline": false,
+      "logo": "https://www.gstatic.com/flights/partner_logos/70px/JUSTFLY.png",
+      "routes_count": 1,
+      "sample_routes": [
+        {
+          "route_id": 3,
+          "description": "Atlanta to Seattle",
+          "category": "US Domestic - Major Hubs",
+          "price": 159
+        }
+      ]
+    }
+  ]
+}

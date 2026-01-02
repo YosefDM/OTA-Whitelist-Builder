@@ -25,6 +25,8 @@ def debug_single_route():
         'currency': 'USD',
         'hl': 'en',
         'gl': 'us',
+        'deep_search': 'true',
+        'show_hidden': 'true',
         'type': '1',
         'travel_class': '1',
         'adults': '1'

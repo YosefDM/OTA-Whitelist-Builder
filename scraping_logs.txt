@@ -1,0 +1,1476 @@
+2026-01-01 23:31:20,012 - INFO - Starting to scrape 65 routes
+2026-01-01 23:31:20,012 - INFO - Estimated API calls: 130
+2026-01-01 23:31:20,013 - INFO - 
+============================================================
+2026-01-01 23:31:20,013 - INFO - Processing route 1/65: NYC to Los Angeles
+2026-01-01 23:31:20,014 - INFO - ============================================================
+2026-01-01 23:31:20,014 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-01 23:31:21,289 - INFO - Found 29 flights for route 1
+2026-01-01 23:31:21,290 - WARNING - No booking token found for route 1, skipping
+2026-01-01 23:31:21,290 - INFO - 
+============================================================
+2026-01-01 23:31:21,290 - INFO - Processing route 2/65: Chicago to San Francisco
+2026-01-01 23:31:21,291 - INFO - ============================================================
+2026-01-01 23:31:21,291 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-01 23:31:22,616 - INFO - Found 17 flights for route 2
+2026-01-01 23:31:22,617 - WARNING - No booking token found for route 2, skipping
+2026-01-01 23:31:22,617 - INFO - 
+============================================================
+2026-01-01 23:31:22,617 - INFO - Processing route 3/65: Atlanta to Seattle
+2026-01-01 23:31:22,618 - INFO - ============================================================
+2026-01-01 23:31:22,618 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-01 23:31:23,875 - INFO - Found 9 flights for route 3
+2026-01-01 23:31:23,876 - WARNING - No booking token found for route 3, skipping
+2026-01-01 23:31:23,876 - INFO - 
+============================================================
+2026-01-01 23:31:23,877 - INFO - Processing route 4/65: Dallas to Miami
+2026-01-01 23:31:23,877 - INFO - ============================================================
+2026-01-01 23:31:23,877 - INFO - Searching flights for route 4: Dallas to Miami
+2026-01-01 23:31:30,425 - INFO - Found 15 flights for route 4
+2026-01-01 23:31:30,426 - WARNING - No booking token found for route 4, skipping
+2026-01-01 23:31:30,427 - INFO - 
+============================================================
+2026-01-01 23:31:30,427 - INFO - Processing route 5/65: Denver to Boston
+2026-01-01 23:31:30,427 - INFO - ============================================================
+2026-01-01 23:31:30,427 - INFO - Searching flights for route 5: Denver to Boston
+2026-01-01 23:31:31,349 - INFO - Found 15 flights for route 5
+2026-01-01 23:31:31,350 - WARNING - No booking token found for route 5, skipping
+2026-01-01 23:31:31,351 - INFO - 
+============================================================
+2026-01-01 23:31:31,351 - INFO - Processing route 6/65: Phoenix to Las Vegas
+2026-01-01 23:31:31,351 - INFO - ============================================================
+2026-01-01 23:31:31,351 - INFO - Searching flights for route 6: Phoenix to Las Vegas
+2026-01-01 23:31:32,219 - INFO - Found 19 flights for route 6
+2026-01-01 23:31:32,220 - WARNING - No booking token found for route 6, skipping
+2026-01-01 23:31:32,220 - INFO - 
+============================================================
+2026-01-01 23:31:32,220 - INFO - Processing route 7/65: Orlando to Newark
+2026-01-01 23:31:32,220 - INFO - ============================================================
+2026-01-01 23:31:32,221 - INFO - Searching flights for route 7: Orlando to Newark
+2026-01-01 23:46:20,256 - INFO - Starting to scrape 3 routes
+2026-01-01 23:46:20,257 - INFO - Estimated API calls: 6
+2026-01-01 23:46:20,257 - INFO - 
+============================================================
+2026-01-01 23:46:20,257 - INFO - Processing route 1/3: NYC to Los Angeles
+2026-01-01 23:46:20,257 - INFO - ============================================================
+2026-01-01 23:46:20,258 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-01 23:46:21,108 - INFO - Found 27 flights for route 1
+2026-01-01 23:46:22,110 - INFO - Getting booking options for route 1
+2026-01-01 23:46:22,176 - ERROR - Error getting booking options for route 1: 400 Client Error: Bad Request for url: https://serpapi.com/search.json?engine=google_flights&api_key=9b12abfa1e61be82bc7117542ac2a4ee698756781cb11bb4baa9c60a59fa7c99&booking_token=WyJDalJJUW5ZMU4xQkdVME15YUZsQlFUaG5Ua0ZDUnkwdExTMHRMUzB0YjJ0aVluQXlNRUZCUVVGQlIyeFlRakIzVFVWa1owRkJFZ1ZDTmpZeU14b0tDUDUzRUFJYUExVlRSRGdjY1A1MyIsW1siSkZLIiwiMjAyNi0wMi0xNSIsIkxBWCIsbnVsbCwiQjYiLCI2MjMiXV1d&currency=USD&hl=en
+2026-01-01 23:46:22,177 - WARNING - No booking data found for route 1, skipping
+2026-01-01 23:46:22,177 - INFO - 
+============================================================
+2026-01-01 23:46:22,177 - INFO - Processing route 2/3: Chicago to San Francisco
+2026-01-01 23:46:22,178 - INFO - ============================================================
+2026-01-01 23:46:22,178 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-01 23:46:23,057 - INFO - Found 21 flights for route 2
+2026-01-01 23:46:24,059 - INFO - Getting booking options for route 2
+2026-01-01 23:46:24,136 - ERROR - Error getting booking options for route 2: 400 Client Error: Bad Request for url: https://serpapi.com/search.json?engine=google_flights&api_key=9b12abfa1e61be82bc7117542ac2a4ee698756781cb11bb4baa9c60a59fa7c99&booking_token=WyJDalJJWkdKNU5uWlRSREJzU1VWQlFYRnVPWGRDUnkwdExTMHRMUzB0Y0dwaWNHSXhOa0ZCUVVGQlIyeFlRakEwU3pac09XZEJFZ1pWUVRFd09UY2FDZ2krWUJBQ0dnTlZVMFE0SEhDK1lBPT0iLFtbIk9SRCIsIjIwMjYtMDMtMTAiLCJTRk8iLG51bGwsIlVBIiwiMTA5NyJdXV0%3D&currency=USD&hl=en
+2026-01-01 23:46:24,138 - WARNING - No booking data found for route 2, skipping
+2026-01-01 23:46:24,138 - INFO - 
+============================================================
+2026-01-01 23:46:24,138 - INFO - Processing route 3/3: Atlanta to Seattle
+2026-01-01 23:46:24,138 - INFO - ============================================================
+2026-01-01 23:46:24,139 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-01 23:46:25,396 - INFO - Found 10 flights for route 3
+2026-01-01 23:46:26,397 - INFO - Getting booking options for route 3
+2026-01-01 23:46:26,460 - ERROR - Error getting booking options for route 3: 400 Client Error: Bad Request for url: https://serpapi.com/search.json?engine=google_flights&api_key=9b12abfa1e61be82bc7117542ac2a4ee698756781cb11bb4baa9c60a59fa7c99&booking_token=WyJDalJJVkRCTVNWRmhOMTh6TXpoQlFUbDZSbEZDUnkwdExTMHRMUzB0TFhaM2VIb3hORUZCUVVGQlIyeFlRakZGUWpBelZIbEJFZ1ZCVXpNM054b0tDT0I3RUFJYUExVlRSRGdjY09CNyIsW1siQVRMIiwiMjAyNi0wNC0wNSIsIlNFQSIsbnVsbCwiQVMiLCIzNzciXV1d&currency=USD&hl=en
+2026-01-01 23:46:26,461 - WARNING - No booking data found for route 3, skipping
+2026-01-01 23:46:26,461 - INFO - 
+============================================================
+2026-01-01 23:46:26,461 - INFO - Scraping completed!
+2026-01-01 23:46:26,461 - INFO - Total API calls made: 3
+2026-01-01 23:46:26,462 - INFO - Total unique OTAs found: 0
+2026-01-01 23:46:26,462 - INFO - ============================================================
+
+2026-01-01 23:46:26,462 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-01 23:46:26,462 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-01 23:46:26,463 - INFO - Saved raw booking data to raw_booking_data.json
+2026-01-01 23:54:03,537 - INFO - Starting to scrape 3 routes
+2026-01-01 23:54:03,537 - INFO - Estimated API calls: 6
+2026-01-01 23:54:03,537 - INFO - 
+============================================================
+2026-01-01 23:54:03,537 - INFO - Processing route 1/3: NYC to Los Angeles
+2026-01-01 23:54:03,538 - INFO - ============================================================
+2026-01-01 23:54:03,538 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-01 23:54:03,596 - INFO - Found 27 flights for route 1
+2026-01-01 23:54:04,598 - INFO - Getting booking options for route 1
+2026-01-01 23:54:06,392 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-01 23:54:06,392 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-01 23:54:06,392 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-01 23:54:06,392 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-01 23:54:06,393 - INFO - Progress: 1/3 routes processed
+2026-01-01 23:54:06,393 - INFO - API calls made: 2
+2026-01-01 23:54:06,393 - INFO - Unique OTAs found so far: 1
+2026-01-01 23:54:06,393 - INFO - 
+============================================================
+2026-01-01 23:54:06,393 - INFO - Processing route 2/3: Chicago to San Francisco
+2026-01-01 23:54:06,393 - INFO - ============================================================
+2026-01-01 23:54:06,393 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-01 23:54:06,444 - INFO - Found 21 flights for route 2
+2026-01-01 23:54:07,446 - INFO - Getting booking options for route 2
+2026-01-01 23:54:09,700 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-01 23:54:09,700 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-01 23:54:09,700 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-01 23:54:09,700 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-01 23:54:09,700 - INFO - Progress: 2/3 routes processed
+2026-01-01 23:54:09,700 - INFO - API calls made: 4
+2026-01-01 23:54:09,700 - INFO - Unique OTAs found so far: 2
+2026-01-01 23:54:09,701 - INFO - 
+============================================================
+2026-01-01 23:54:09,701 - INFO - Processing route 3/3: Atlanta to Seattle
+2026-01-01 23:54:09,701 - INFO - ============================================================
+2026-01-01 23:54:09,701 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-01 23:54:09,746 - INFO - Found 10 flights for route 3
+2026-01-01 23:54:10,747 - INFO - Getting booking options for route 3
+2026-01-01 23:54:14,593 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-01 23:54:14,593 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-01 23:54:14,594 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-01 23:54:14,594 - INFO - Found OTA: Hawaiian (airline: True) on route 3
+2026-01-01 23:54:14,594 - INFO - Found OTA: Travomint (airline: False) on route 3
+2026-01-01 23:54:14,594 - INFO - Found OTA: Ovago (airline: False) on route 3
+2026-01-01 23:54:14,594 - INFO - Found OTA: business-class.com (airline: False) on route 3
+2026-01-01 23:54:14,595 - INFO - Found OTA: FlightHub (airline: False) on route 3
+2026-01-01 23:54:14,595 - INFO - Found OTA: Justfly.com (airline: False) on route 3
+2026-01-01 23:54:14,595 - INFO - Progress: 3/3 routes processed
+2026-01-01 23:54:14,595 - INFO - API calls made: 6
+2026-01-01 23:54:14,595 - INFO - Unique OTAs found so far: 9
+2026-01-01 23:54:14,595 - INFO - 
+============================================================
+2026-01-01 23:54:14,595 - INFO - Scraping completed!
+2026-01-01 23:54:14,596 - INFO - Total API calls made: 6
+2026-01-01 23:54:14,596 - INFO - Total unique OTAs found: 9
+2026-01-01 23:54:14,596 - INFO - ============================================================
+
+2026-01-01 23:54:14,597 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-01 23:54:14,597 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-01 23:54:14,602 - INFO - Saved raw booking data to raw_booking_data.json
+2026-01-02 00:12:51,641 - INFO - Starting to scrape 3 routes
+2026-01-02 00:12:51,642 - INFO - Estimated API calls: 6
+2026-01-02 00:12:51,642 - INFO - 
+============================================================
+2026-01-02 00:12:51,642 - INFO - Processing route 1/3: NYC to Los Angeles
+2026-01-02 00:12:51,642 - INFO - ============================================================
+2026-01-02 00:12:51,642 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-02 00:12:53,828 - INFO - Found 52 flights for route 1
+2026-01-02 00:12:54,829 - INFO - Getting booking options for route 1
+2026-01-02 00:12:56,579 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: ly.com (airline: False) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: Priceline (airline: False) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: Trip.com (airline: False) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: CheapOair (airline: False) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: HopeGoo (airline: False) on route 1
+2026-01-02 00:12:56,580 - INFO - Found OTA: Fliggy (airline: False) on route 1
+2026-01-02 00:12:56,581 - INFO - Found OTA: BudgetAir (airline: False) on route 1
+2026-01-02 00:12:56,581 - INFO - Found OTA: kiss&fly (airline: False) on route 1
+2026-01-02 00:12:56,581 - INFO - Progress: 1/3 routes processed
+2026-01-02 00:12:56,581 - INFO - API calls made: 2
+2026-01-02 00:12:56,581 - INFO - Unique OTAs found so far: 9
+2026-01-02 00:12:56,581 - INFO - 
+============================================================
+2026-01-02 00:12:56,581 - INFO - Processing route 2/3: Chicago to San Francisco
+2026-01-02 00:12:56,581 - INFO - ============================================================
+2026-01-02 00:12:56,581 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-02 00:12:58,795 - INFO - Found 100 flights for route 2
+2026-01-02 00:12:59,796 - INFO - Getting booking options for route 2
+2026-01-02 00:13:01,729 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:13:01,729 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:13:01,729 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:13:01,729 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:13:01,730 - INFO - Progress: 2/3 routes processed
+2026-01-02 00:13:01,730 - INFO - API calls made: 4
+2026-01-02 00:13:01,730 - INFO - Unique OTAs found so far: 10
+2026-01-02 00:13:01,730 - INFO - 
+============================================================
+2026-01-02 00:13:01,730 - INFO - Processing route 3/3: Atlanta to Seattle
+2026-01-02 00:13:01,730 - INFO - ============================================================
+2026-01-02 00:13:01,730 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-02 00:13:04,528 - INFO - Found 45 flights for route 3
+2026-01-02 00:13:05,530 - INFO - Getting booking options for route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Hawaiian (airline: True) on route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Travomint (airline: False) on route 3
+2026-01-02 00:13:07,362 - INFO - Found OTA: Ovago (airline: False) on route 3
+2026-01-02 00:13:07,363 - INFO - Found OTA: business-class.com (airline: False) on route 3
+2026-01-02 00:13:07,363 - INFO - Found OTA: FlightHub (airline: False) on route 3
+2026-01-02 00:13:07,363 - INFO - Found OTA: Justfly.com (airline: False) on route 3
+2026-01-02 00:13:07,363 - INFO - Progress: 3/3 routes processed
+2026-01-02 00:13:07,363 - INFO - API calls made: 6
+2026-01-02 00:13:07,363 - INFO - Unique OTAs found so far: 17
+2026-01-02 00:13:07,363 - INFO - 
+============================================================
+2026-01-02 00:13:07,363 - INFO - Scraping completed!
+2026-01-02 00:13:07,363 - INFO - Total API calls made: 6
+2026-01-02 00:13:07,363 - INFO - Total unique OTAs found: 17
+2026-01-02 00:13:07,364 - INFO - ============================================================
+
+2026-01-02 00:13:07,365 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-02 00:13:07,365 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-02 00:13:07,369 - INFO - Saved raw booking data to raw_booking_data.json
+2026-01-02 00:33:24,483 - INFO - Starting to scrape 3 routes
+2026-01-02 00:33:24,484 - INFO - Estimated API calls: 6
+2026-01-02 00:33:24,484 - INFO - 
+============================================================
+2026-01-02 00:33:24,485 - INFO - Processing route 1/3: NYC to Los Angeles
+2026-01-02 00:33:24,485 - INFO - ============================================================
+2026-01-02 00:33:24,485 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-02 00:33:24,582 - INFO - Found 52 flights for route 1
+2026-01-02 00:33:25,583 - INFO - Getting booking options for route 1
+2026-01-02 00:33:25,632 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:33:25,632 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: ly.com (airline: False) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: Priceline (airline: False) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: Trip.com (airline: False) on route 1
+2026-01-02 00:33:25,633 - INFO - Found OTA: CheapOair (airline: False) on route 1
+2026-01-02 00:33:25,634 - INFO - Found OTA: HopeGoo (airline: False) on route 1
+2026-01-02 00:33:25,634 - INFO - Found OTA: Fliggy (airline: False) on route 1
+2026-01-02 00:33:25,634 - INFO - Found OTA: BudgetAir (airline: False) on route 1
+2026-01-02 00:33:25,634 - INFO - Found OTA: kiss&fly (airline: False) on route 1
+2026-01-02 00:33:25,634 - INFO - Progress: 1/3 routes processed
+2026-01-02 00:33:25,634 - INFO - API calls made: 2
+2026-01-02 00:33:25,634 - INFO - Unique OTAs found so far: 9
+2026-01-02 00:33:25,634 - INFO - 
+============================================================
+2026-01-02 00:33:25,635 - INFO - Processing route 2/3: Chicago to San Francisco
+2026-01-02 00:33:25,635 - INFO - ============================================================
+2026-01-02 00:33:25,635 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-02 00:33:25,691 - INFO - Found 100 flights for route 2
+2026-01-02 00:33:26,692 - INFO - Getting booking options for route 2
+2026-01-02 00:33:26,751 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:33:26,751 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:33:26,751 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:33:26,752 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:33:26,752 - INFO - Progress: 2/3 routes processed
+2026-01-02 00:33:26,752 - INFO - API calls made: 4
+2026-01-02 00:33:26,752 - INFO - Unique OTAs found so far: 10
+2026-01-02 00:33:26,752 - INFO - 
+============================================================
+2026-01-02 00:33:26,752 - INFO - Processing route 3/3: Atlanta to Seattle
+2026-01-02 00:33:26,752 - INFO - ============================================================
+2026-01-02 00:33:26,752 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-02 00:33:26,829 - INFO - Found 45 flights for route 3
+2026-01-02 00:33:27,835 - INFO - Getting booking options for route 3
+2026-01-02 00:33:27,892 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Hawaiian (airline: True) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Travomint (airline: False) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Ovago (airline: False) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: business-class.com (airline: False) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: FlightHub (airline: False) on route 3
+2026-01-02 00:33:27,893 - INFO - Found OTA: Justfly.com (airline: False) on route 3
+2026-01-02 00:33:27,894 - INFO - Progress: 3/3 routes processed
+2026-01-02 00:33:27,894 - INFO - API calls made: 6
+2026-01-02 00:33:27,894 - INFO - Unique OTAs found so far: 17
+2026-01-02 00:33:27,894 - INFO - 
+============================================================
+2026-01-02 00:33:27,894 - INFO - Scraping completed!
+2026-01-02 00:33:27,894 - INFO - Total API calls made: 6
+2026-01-02 00:33:27,894 - INFO - Total unique OTAs found: 17
+2026-01-02 00:33:27,894 - INFO - ============================================================
+
+2026-01-02 00:33:27,895 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-02 00:33:27,895 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-02 00:33:27,899 - INFO - Saved raw booking data to raw_booking_data.json
+2026-01-02 00:34:45,034 - INFO - Starting to scrape 65 routes
+2026-01-02 00:34:45,034 - INFO - Estimated API calls: 130
+2026-01-02 00:34:45,034 - INFO - 
+============================================================
+2026-01-02 00:34:45,035 - INFO - Processing route 1/65: NYC to Los Angeles
+2026-01-02 00:34:45,035 - INFO - ============================================================
+2026-01-02 00:34:45,036 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-02 00:34:45,115 - INFO - Found 52 flights for route 1
+2026-01-02 00:34:46,117 - INFO - Getting booking options for route 1
+2026-01-02 00:34:46,174 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:34:46,174 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:34:46,174 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:34:46,174 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: ly.com (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: Priceline (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: Trip.com (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: CheapOair (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: HopeGoo (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: Fliggy (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: BudgetAir (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Found OTA: kiss&fly (airline: False) on route 1
+2026-01-02 00:34:46,175 - INFO - Progress: 1/65 routes processed
+2026-01-02 00:34:46,176 - INFO - API calls made: 2
+2026-01-02 00:34:46,176 - INFO - Unique OTAs found so far: 9
+2026-01-02 00:34:46,176 - INFO - 
+============================================================
+2026-01-02 00:34:46,176 - INFO - Processing route 2/65: Chicago to San Francisco
+2026-01-02 00:34:46,176 - INFO - ============================================================
+2026-01-02 00:34:46,176 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-02 00:34:46,240 - INFO - Found 100 flights for route 2
+2026-01-02 00:34:47,242 - INFO - Getting booking options for route 2
+2026-01-02 00:34:47,300 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:34:47,300 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:34:47,301 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:34:47,301 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:34:47,302 - INFO - Progress: 2/65 routes processed
+2026-01-02 00:34:47,302 - INFO - API calls made: 4
+2026-01-02 00:34:47,302 - INFO - Unique OTAs found so far: 10
+2026-01-02 00:34:47,303 - INFO - 
+============================================================
+2026-01-02 00:34:47,303 - INFO - Processing route 3/65: Atlanta to Seattle
+2026-01-02 00:34:47,303 - INFO - ============================================================
+2026-01-02 00:34:47,304 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-02 00:34:47,370 - INFO - Found 45 flights for route 3
+2026-01-02 00:34:48,372 - INFO - Getting booking options for route 3
+2026-01-02 00:34:48,453 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:34:48,454 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:34:48,454 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:34:48,454 - INFO - Found OTA: Hawaiian (airline: True) on route 3
+2026-01-02 00:34:48,454 - INFO - Found OTA: Travomint (airline: False) on route 3
+2026-01-02 00:34:48,455 - INFO - Found OTA: Ovago (airline: False) on route 3
+2026-01-02 00:34:48,455 - INFO - Found OTA: business-class.com (airline: False) on route 3
+2026-01-02 00:34:48,455 - INFO - Found OTA: FlightHub (airline: False) on route 3
+2026-01-02 00:34:48,455 - INFO - Found OTA: Justfly.com (airline: False) on route 3
+2026-01-02 00:34:48,455 - INFO - Progress: 3/65 routes processed
+2026-01-02 00:34:48,455 - INFO - API calls made: 6
+2026-01-02 00:34:48,456 - INFO - Unique OTAs found so far: 17
+2026-01-02 00:34:48,456 - INFO - 
+============================================================
+2026-01-02 00:34:48,456 - INFO - Processing route 4/65: Dallas to Miami
+2026-01-02 00:34:48,456 - INFO - ============================================================
+2026-01-02 00:34:48,456 - INFO - Searching flights for route 4: Dallas to Miami
+2026-01-02 00:34:52,613 - INFO - Found 33 flights for route 4
+2026-01-02 00:34:53,614 - INFO - Getting booking options for route 4
+2026-01-02 00:34:54,913 - INFO - Found OTA: Spirit (airline: True) on route 4
+2026-01-02 00:34:54,914 - INFO - Found OTA: Priceline (airline: False) on route 4
+2026-01-02 00:34:54,914 - INFO - Found OTA: Gotogate (airline: False) on route 4
+2026-01-02 00:34:54,915 - INFO - Found OTA: CheapOair (airline: False) on route 4
+2026-01-02 00:34:54,915 - INFO - Found OTA: Mytrip (airline: False) on route 4
+2026-01-02 00:34:54,915 - INFO - Found OTA: Kiwi.com (airline: False) on route 4
+2026-01-02 00:34:54,915 - INFO - Found OTA: Flightnetwork (airline: False) on route 4
+2026-01-02 00:34:54,915 - INFO - Found OTA: eDreams (airline: False) on route 4
+2026-01-02 00:34:54,916 - INFO - Progress: 4/65 routes processed
+2026-01-02 00:34:54,916 - INFO - API calls made: 8
+2026-01-02 00:34:54,916 - INFO - Unique OTAs found so far: 23
+2026-01-02 00:34:54,916 - INFO - 
+============================================================
+2026-01-02 00:34:54,916 - INFO - Processing route 5/65: Denver to Boston
+2026-01-02 00:34:54,916 - INFO - ============================================================
+2026-01-02 00:34:54,916 - INFO - Searching flights for route 5: Denver to Boston
+2026-01-02 00:34:57,155 - INFO - Found 72 flights for route 5
+2026-01-02 00:34:58,157 - INFO - Getting booking options for route 5
+2026-01-02 00:35:04,596 - INFO - Found OTA: United (airline: True) on route 5
+2026-01-02 00:35:04,596 - INFO - Found OTA: United (airline: True) on route 5
+2026-01-02 00:35:04,596 - INFO - Found OTA: United (airline: True) on route 5
+2026-01-02 00:35:04,596 - INFO - Found OTA: United (airline: True) on route 5
+2026-01-02 00:35:04,596 - INFO - Found OTA: United (airline: True) on route 5
+2026-01-02 00:35:04,596 - INFO - Progress: 5/65 routes processed
+2026-01-02 00:35:04,596 - INFO - API calls made: 10
+2026-01-02 00:35:04,596 - INFO - Unique OTAs found so far: 23
+2026-01-02 00:35:04,596 - INFO - 
+============================================================
+2026-01-02 00:35:04,597 - INFO - Processing route 6/65: Phoenix to Las Vegas
+2026-01-02 00:35:04,597 - INFO - ============================================================
+2026-01-02 00:35:04,597 - INFO - Searching flights for route 6: Phoenix to Las Vegas
+2026-01-02 00:35:06,572 - INFO - Found 32 flights for route 6
+2026-01-02 00:35:07,574 - INFO - Getting booking options for route 6
+2026-01-02 00:35:10,147 - INFO - Found OTA: Frontier (airline: True) on route 6
+2026-01-02 00:35:10,147 - INFO - Found OTA: Ovago (airline: False) on route 6
+2026-01-02 00:35:10,148 - INFO - Found OTA: Travomint (airline: False) on route 6
+2026-01-02 00:35:10,148 - INFO - Progress: 6/65 routes processed
+2026-01-02 00:35:10,148 - INFO - API calls made: 12
+2026-01-02 00:35:10,148 - INFO - Unique OTAs found so far: 24
+2026-01-02 00:35:10,148 - INFO - 
+============================================================
+2026-01-02 00:35:10,148 - INFO - Processing route 7/65: Orlando to Newark
+2026-01-02 00:35:10,148 - INFO - ============================================================
+2026-01-02 00:35:10,148 - INFO - Searching flights for route 7: Orlando to Newark
+2026-01-02 00:35:13,168 - INFO - Found 122 flights for route 7
+2026-01-02 00:35:14,169 - INFO - Getting booking options for route 7
+2026-01-02 00:35:15,527 - INFO - Found OTA: United (airline: True) on route 7
+2026-01-02 00:35:15,527 - INFO - Found OTA: United (airline: True) on route 7
+2026-01-02 00:35:15,527 - INFO - Found OTA: United (airline: True) on route 7
+2026-01-02 00:35:15,528 - INFO - Found OTA: United (airline: True) on route 7
+2026-01-02 00:35:15,528 - INFO - Progress: 7/65 routes processed
+2026-01-02 00:35:15,528 - INFO - API calls made: 14
+2026-01-02 00:35:15,528 - INFO - Unique OTAs found so far: 24
+2026-01-02 00:35:15,528 - INFO - 
+============================================================
+2026-01-02 00:35:15,528 - INFO - Processing route 8/65: Minneapolis to Portland
+2026-01-02 00:35:15,528 - INFO - ============================================================
+2026-01-02 00:35:15,528 - INFO - Searching flights for route 8: Minneapolis to Portland
+2026-01-02 00:35:17,312 - INFO - Found 58 flights for route 8
+2026-01-02 00:35:18,314 - INFO - Getting booking options for route 8
+2026-01-02 00:35:20,290 - INFO - Found OTA: Sun Country Airlines (airline: True) on route 8
+2026-01-02 00:35:20,290 - INFO - Found OTA: Ovago (airline: False) on route 8
+2026-01-02 00:35:20,290 - INFO - Progress: 8/65 routes processed
+2026-01-02 00:35:20,290 - INFO - API calls made: 16
+2026-01-02 00:35:20,291 - INFO - Unique OTAs found so far: 25
+2026-01-02 00:35:20,291 - INFO - 
+============================================================
+2026-01-02 00:35:20,291 - INFO - Processing route 9/65: Detroit to San Diego
+2026-01-02 00:35:20,291 - INFO - ============================================================
+2026-01-02 00:35:20,291 - INFO - Searching flights for route 9: Detroit to San Diego
+2026-01-02 00:35:21,924 - INFO - Found 134 flights for route 9
+2026-01-02 00:35:22,926 - INFO - Getting booking options for route 9
+2026-01-02 00:35:26,908 - INFO - Found OTA: Southwest (airline: True) on route 9
+2026-01-02 00:35:26,908 - INFO - Found OTA: Southwest (airline: True) on route 9
+2026-01-02 00:35:26,908 - INFO - Found OTA: Southwest (airline: True) on route 9
+2026-01-02 00:35:26,908 - INFO - Found OTA: Southwest (airline: True) on route 9
+2026-01-02 00:35:26,908 - INFO - Progress: 9/65 routes processed
+2026-01-02 00:35:26,909 - INFO - API calls made: 18
+2026-01-02 00:35:26,909 - INFO - Unique OTAs found so far: 26
+2026-01-02 00:35:26,909 - INFO - 
+============================================================
+2026-01-02 00:35:26,909 - INFO - Processing route 10/65: Charlotte to Austin
+2026-01-02 00:35:26,909 - INFO - ============================================================
+2026-01-02 00:35:26,909 - INFO - Searching flights for route 10: Charlotte to Austin
+2026-01-02 00:35:28,812 - INFO - Found 142 flights for route 10
+2026-01-02 00:35:29,813 - INFO - Getting booking options for route 10
+2026-01-02 00:35:32,175 - INFO - Found OTA: American (airline: True) on route 10
+2026-01-02 00:35:32,175 - INFO - Found OTA: American (airline: True) on route 10
+2026-01-02 00:35:32,176 - INFO - Found OTA: American (airline: True) on route 10
+2026-01-02 00:35:32,176 - INFO - Found OTA: American (airline: True) on route 10
+2026-01-02 00:35:32,176 - INFO - Progress: 10/65 routes processed
+2026-01-02 00:35:32,176 - INFO - API calls made: 20
+2026-01-02 00:35:32,176 - INFO - Unique OTAs found so far: 27
+2026-01-02 00:35:32,176 - INFO - 
+============================================================
+2026-01-02 00:35:32,176 - INFO - Processing route 11/65: Nashville to Salt Lake City
+2026-01-02 00:35:32,176 - INFO - ============================================================
+2026-01-02 00:35:32,176 - INFO - Searching flights for route 11: Nashville to Salt Lake City
+2026-01-02 00:35:34,829 - INFO - Found 112 flights for route 11
+2026-01-02 00:35:35,831 - INFO - Getting booking options for route 11
+2026-01-02 00:35:37,285 - INFO - Found OTA: Frontier (airline: True) on route 11
+2026-01-02 00:35:37,285 - INFO - Found OTA: Kiwi.com (airline: False) on route 11
+2026-01-02 00:35:37,286 - INFO - Found OTA: Trip.com (airline: False) on route 11
+2026-01-02 00:35:37,286 - INFO - Found OTA: Travelocity (airline: False) on route 11
+2026-01-02 00:35:37,286 - INFO - Found OTA: Travomint (airline: False) on route 11
+2026-01-02 00:35:37,286 - INFO - Found OTA: Ovago (airline: False) on route 11
+2026-01-02 00:35:37,286 - INFO - Progress: 11/65 routes processed
+2026-01-02 00:35:37,286 - INFO - API calls made: 22
+2026-01-02 00:35:37,286 - INFO - Unique OTAs found so far: 28
+2026-01-02 00:35:37,286 - INFO - 
+============================================================
+2026-01-02 00:35:37,286 - INFO - Processing route 12/65: Raleigh to Tampa
+2026-01-02 00:35:37,287 - INFO - ============================================================
+2026-01-02 00:35:37,287 - INFO - Searching flights for route 12: Raleigh to Tampa
+2026-01-02 00:35:40,553 - INFO - Found 100 flights for route 12
+2026-01-02 00:35:41,555 - INFO - Getting booking options for route 12
+2026-01-02 00:35:43,485 - INFO - Found OTA: Mytrip (airline: False) on route 12
+2026-01-02 00:35:43,485 - INFO - Found OTA: CheapOair (airline: False) on route 12
+2026-01-02 00:35:43,485 - INFO - Found OTA: Gotogate (airline: False) on route 12
+2026-01-02 00:35:43,485 - INFO - Found OTA: Flightnetwork (airline: False) on route 12
+2026-01-02 00:35:43,485 - INFO - Found OTA: Breeze (airline: True) on route 12
+2026-01-02 00:35:43,486 - INFO - Progress: 12/65 routes processed
+2026-01-02 00:35:43,486 - INFO - API calls made: 24
+2026-01-02 00:35:43,486 - INFO - Unique OTAs found so far: 29
+2026-01-02 00:35:43,486 - INFO - 
+============================================================
+2026-01-02 00:35:43,486 - INFO - Processing route 13/65: St Louis to New Orleans
+2026-01-02 00:35:43,486 - INFO - ============================================================
+2026-01-02 00:35:43,486 - INFO - Searching flights for route 13: St Louis to New Orleans
+2026-01-02 00:35:45,967 - INFO - Found 78 flights for route 13
+2026-01-02 00:35:46,968 - INFO - Getting booking options for route 13
+2026-01-02 00:35:48,373 - INFO - Found OTA: Southwest (airline: True) on route 13
+2026-01-02 00:35:48,373 - INFO - Found OTA: Southwest (airline: True) on route 13
+2026-01-02 00:35:48,373 - INFO - Found OTA: Southwest (airline: True) on route 13
+2026-01-02 00:35:48,374 - INFO - Found OTA: Southwest (airline: True) on route 13
+2026-01-02 00:35:48,374 - INFO - Progress: 13/65 routes processed
+2026-01-02 00:35:48,374 - INFO - API calls made: 26
+2026-01-02 00:35:48,374 - INFO - Unique OTAs found so far: 29
+2026-01-02 00:35:48,374 - INFO - 
+============================================================
+2026-01-02 00:35:48,374 - INFO - Processing route 14/65: Pittsburgh to Houston
+2026-01-02 00:35:48,375 - INFO - ============================================================
+2026-01-02 00:35:48,375 - INFO - Searching flights for route 14: Pittsburgh to Houston
+2026-01-02 00:35:51,094 - INFO - Found 107 flights for route 14
+2026-01-02 00:35:52,096 - INFO - Getting booking options for route 14
+2026-01-02 00:35:54,928 - INFO - Found OTA: Delta (airline: True) on route 14
+2026-01-02 00:35:54,928 - INFO - Found OTA: Delta (airline: True) on route 14
+2026-01-02 00:35:54,928 - INFO - Found OTA: Delta (airline: True) on route 14
+2026-01-02 00:35:54,928 - INFO - Progress: 14/65 routes processed
+2026-01-02 00:35:54,928 - INFO - API calls made: 28
+2026-01-02 00:35:54,928 - INFO - Unique OTAs found so far: 30
+2026-01-02 00:35:54,929 - INFO - 
+============================================================
+2026-01-02 00:35:54,929 - INFO - Processing route 15/65: Sacramento to Baltimore
+2026-01-02 00:35:54,929 - INFO - ============================================================
+2026-01-02 00:35:54,929 - INFO - Searching flights for route 15: Sacramento to Baltimore
+2026-01-02 00:35:57,145 - INFO - Found 136 flights for route 15
+2026-01-02 00:35:58,147 - INFO - Getting booking options for route 15
+2026-01-02 00:35:59,504 - INFO - Found OTA: United (airline: True) on route 15
+2026-01-02 00:35:59,504 - INFO - Found OTA: United (airline: True) on route 15
+2026-01-02 00:35:59,504 - INFO - Found OTA: United (airline: True) on route 15
+2026-01-02 00:35:59,504 - INFO - Progress: 15/65 routes processed
+2026-01-02 00:35:59,505 - INFO - API calls made: 30
+2026-01-02 00:35:59,505 - INFO - Unique OTAs found so far: 30
+2026-01-02 00:35:59,505 - INFO - 
+============================================================
+2026-01-02 00:35:59,505 - INFO - Processing route 16/65: NYC to London
+2026-01-02 00:35:59,505 - INFO - ============================================================
+2026-01-02 00:35:59,505 - INFO - Searching flights for route 16: NYC to London
+2026-01-02 00:36:04,256 - INFO - Found 109 flights for route 16
+2026-01-02 00:36:05,258 - INFO - Getting booking options for route 16
+2026-01-02 00:36:07,714 - INFO - Found OTA: British Airways (airline: True) on route 16
+2026-01-02 00:36:07,715 - INFO - Found OTA: American (airline: True) on route 16
+2026-01-02 00:36:07,715 - INFO - Found OTA: Iberia (airline: True) on route 16
+2026-01-02 00:36:07,715 - INFO - Found OTA: Finnair (airline: True) on route 16
+2026-01-02 00:36:07,716 - INFO - Found OTA: FlightHub (airline: False) on route 16
+2026-01-02 00:36:07,716 - INFO - Found OTA: Alaska (airline: True) on route 16
+2026-01-02 00:36:07,716 - INFO - Found OTA: Justfly.com (airline: False) on route 16
+2026-01-02 00:36:07,716 - INFO - Found OTA: Priceline (airline: False) on route 16
+2026-01-02 00:36:07,717 - INFO - Found OTA: eDreams (airline: False) on route 16
+2026-01-02 00:36:07,717 - INFO - Found OTA: OneTravel (airline: False) on route 16
+2026-01-02 00:36:07,717 - INFO - Found OTA: Adam Vacations (airline: False) on route 16
+2026-01-02 00:36:07,717 - INFO - Found OTA: Ovago (airline: False) on route 16
+2026-01-02 00:36:07,718 - INFO - Found OTA: Gotogate (airline: False) on route 16
+2026-01-02 00:36:07,718 - INFO - Found OTA: CheapOair (airline: False) on route 16
+2026-01-02 00:36:07,718 - INFO - Found OTA: martiGO (airline: False) on route 16
+2026-01-02 00:36:07,718 - INFO - Found OTA: ScholarTrip (airline: False) on route 16
+2026-01-02 00:36:07,719 - INFO - Found OTA: Travomint (airline: False) on route 16
+2026-01-02 00:36:07,719 - INFO - Found OTA: OOJO (airline: False) on route 16
+2026-01-02 00:36:07,719 - INFO - Found OTA: AranGrant (airline: False) on route 16
+2026-01-02 00:36:07,719 - INFO - Found OTA: Flights Travel (airline: False) on route 16
+2026-01-02 00:36:07,719 - INFO - Progress: 16/65 routes processed
+2026-01-02 00:36:07,720 - INFO - API calls made: 32
+2026-01-02 00:36:07,720 - INFO - Unique OTAs found so far: 40
+2026-01-02 00:36:07,720 - INFO - 
+============================================================
+2026-01-02 00:36:07,721 - INFO - Processing route 17/65: Newark to Paris
+2026-01-02 00:36:07,721 - INFO - ============================================================
+2026-01-02 00:36:07,721 - INFO - Searching flights for route 17: Newark to Paris
+2026-01-02 00:36:09,551 - INFO - Found 41 flights for route 17
+2026-01-02 00:36:10,552 - INFO - Getting booking options for route 17
+2026-01-02 00:36:12,950 - INFO - Found OTA: Air France (airline: True) on route 17
+2026-01-02 00:36:12,950 - INFO - Found OTA: Delta (airline: True) on route 17
+2026-01-02 00:36:12,950 - INFO - Progress: 17/65 routes processed
+2026-01-02 00:36:12,951 - INFO - API calls made: 34
+2026-01-02 00:36:12,951 - INFO - Unique OTAs found so far: 41
+2026-01-02 00:36:12,951 - INFO - 
+============================================================
+2026-01-02 00:36:12,951 - INFO - Processing route 18/65: Boston to Rome
+2026-01-02 00:36:12,951 - INFO - ============================================================
+2026-01-02 00:36:12,951 - INFO - Searching flights for route 18: Boston to Rome
+2026-01-02 00:36:15,690 - INFO - Found 108 flights for route 18
+2026-01-02 00:36:16,691 - INFO - Getting booking options for route 18
+2026-01-02 00:36:19,336 - INFO - Found OTA: Tap Air Portugal (airline: True) on route 18
+2026-01-02 00:36:19,337 - INFO - Progress: 18/65 routes processed
+2026-01-02 00:36:19,337 - INFO - API calls made: 36
+2026-01-02 00:36:19,338 - INFO - Unique OTAs found so far: 42
+2026-01-02 00:36:19,339 - INFO - 
+============================================================
+2026-01-02 00:36:19,339 - INFO - Processing route 19/65: Chicago to Madrid
+2026-01-02 00:36:19,340 - INFO - ============================================================
+2026-01-02 00:36:19,340 - INFO - Searching flights for route 19: Chicago to Madrid
+2026-01-02 00:36:22,223 - INFO - Found 106 flights for route 19
+2026-01-02 00:36:23,224 - INFO - Getting booking options for route 19
+2026-01-02 00:36:26,260 - INFO - Found OTA: Aer Lingus (airline: True) on route 19
+2026-01-02 00:36:26,261 - INFO - Found OTA: Iberia (airline: True) on route 19
+2026-01-02 00:36:26,261 - INFO - Found OTA: Adam Vacations (airline: False) on route 19
+2026-01-02 00:36:26,261 - INFO - Found OTA: business-class.com (airline: False) on route 19
+2026-01-02 00:36:26,261 - INFO - Found OTA: FlightHub (airline: False) on route 19
+2026-01-02 00:36:26,261 - INFO - Found OTA: Gotogate (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: Travomint (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: martiGO (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: Ovago (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: Justfly.com (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: ScholarTrip (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Found OTA: AranGrant (airline: False) on route 19
+2026-01-02 00:36:26,262 - INFO - Progress: 19/65 routes processed
+2026-01-02 00:36:26,262 - INFO - API calls made: 38
+2026-01-02 00:36:26,263 - INFO - Unique OTAs found so far: 43
+2026-01-02 00:36:26,263 - INFO - 
+============================================================
+2026-01-02 00:36:26,263 - INFO - Processing route 20/65: Los Angeles to Amsterdam
+2026-01-02 00:36:26,263 - INFO - ============================================================
+2026-01-02 00:36:26,263 - INFO - Searching flights for route 20: Los Angeles to Amsterdam
+2026-01-02 00:36:28,812 - INFO - Found 135 flights for route 20
+2026-01-02 00:36:29,814 - INFO - Getting booking options for route 20
+2026-01-02 00:36:31,881 - INFO - Found OTA: JetBlue (airline: True) on route 20
+2026-01-02 00:36:31,881 - INFO - Found OTA: JetBlue (airline: True) on route 20
+2026-01-02 00:36:31,881 - INFO - Found OTA: JetBlue (airline: True) on route 20
+2026-01-02 00:36:31,881 - INFO - Found OTA: JetBlue (airline: True) on route 20
+2026-01-02 00:36:31,881 - INFO - Found OTA: JetBlue (airline: True) on route 20
+2026-01-02 00:36:31,881 - INFO - Progress: 20/65 routes processed
+2026-01-02 00:36:31,882 - INFO - API calls made: 40
+2026-01-02 00:36:31,882 - INFO - Unique OTAs found so far: 43
+2026-01-02 00:36:31,882 - INFO - 
+============================================================
+2026-01-02 00:36:31,882 - INFO - Processing route 21/65: San Francisco to Frankfurt
+2026-01-02 00:36:31,882 - INFO - ============================================================
+2026-01-02 00:36:31,882 - INFO - Searching flights for route 21: San Francisco to Frankfurt
+2026-01-02 00:36:39,954 - INFO - Found 135 flights for route 21
+2026-01-02 00:36:40,955 - INFO - Getting booking options for route 21
+2026-01-02 00:36:43,252 - INFO - Found OTA: ITA (airline: True) on route 21
+2026-01-02 00:36:43,252 - INFO - Found OTA: ITA (airline: True) on route 21
+2026-01-02 00:36:43,252 - INFO - Found OTA: ITA (airline: True) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: FlightHub (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: Justfly.com (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: business-class.com (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: Adam Vacations (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: Ovago (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: Gotogate (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: Travomint (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: OOJO (airline: False) on route 21
+2026-01-02 00:36:43,253 - INFO - Found OTA: martiGO (airline: False) on route 21
+2026-01-02 00:36:43,254 - INFO - Found OTA: ScholarTrip (airline: False) on route 21
+2026-01-02 00:36:43,254 - INFO - Found OTA: AranGrant (airline: False) on route 21
+2026-01-02 00:36:43,254 - INFO - Progress: 21/65 routes processed
+2026-01-02 00:36:43,254 - INFO - API calls made: 42
+2026-01-02 00:36:43,254 - INFO - Unique OTAs found so far: 44
+2026-01-02 00:36:43,254 - INFO - 
+============================================================
+2026-01-02 00:36:43,254 - INFO - Processing route 22/65: Miami to Munich
+2026-01-02 00:36:43,254 - INFO - ============================================================
+2026-01-02 00:36:43,254 - INFO - Searching flights for route 22: Miami to Munich
+2026-01-02 00:36:45,211 - INFO - Found 133 flights for route 22
+2026-01-02 00:36:46,213 - INFO - Getting booking options for route 22
+2026-01-02 00:36:47,565 - INFO - Found OTA: Air Europa (airline: True) on route 22
+2026-01-02 00:36:47,566 - INFO - Found OTA: Adam Vacations (airline: False) on route 22
+2026-01-02 00:36:47,566 - INFO - Found OTA: FlightHub (airline: False) on route 22
+2026-01-02 00:36:47,567 - INFO - Found OTA: eDreams (airline: False) on route 22
+2026-01-02 00:36:47,567 - INFO - Found OTA: business-class.com (airline: False) on route 22
+2026-01-02 00:36:47,568 - INFO - Found OTA: Justfly.com (airline: False) on route 22
+2026-01-02 00:36:47,568 - INFO - Found OTA: OOJO (airline: False) on route 22
+2026-01-02 00:36:47,568 - INFO - Found OTA: BYOjet (airline: False) on route 22
+2026-01-02 00:36:47,569 - INFO - Found OTA: Ovago (airline: False) on route 22
+2026-01-02 00:36:47,569 - INFO - Found OTA: martiGO (airline: False) on route 22
+2026-01-02 00:36:47,569 - INFO - Progress: 22/65 routes processed
+2026-01-02 00:36:47,569 - INFO - API calls made: 44
+2026-01-02 00:36:47,570 - INFO - Unique OTAs found so far: 46
+2026-01-02 00:36:47,570 - INFO - 
+============================================================
+2026-01-02 00:36:47,570 - INFO - Processing route 23/65: Atlanta to Barcelona
+2026-01-02 00:36:47,571 - INFO - ============================================================
+2026-01-02 00:36:47,571 - INFO - Searching flights for route 23: Atlanta to Barcelona
+2026-01-02 00:36:50,492 - INFO - Found 93 flights for route 23
+2026-01-02 00:36:51,494 - INFO - Getting booking options for route 23
+2026-01-02 00:36:58,282 - INFO - Found OTA: Turkish Airlines (airline: True) on route 23
+2026-01-02 00:36:58,282 - INFO - Found OTA: Turkish Airlines (airline: True) on route 23
+2026-01-02 00:36:58,283 - INFO - Found OTA: Turkish Airlines (airline: True) on route 23
+2026-01-02 00:36:58,283 - INFO - Found OTA: BudgetAir (airline: False) on route 23
+2026-01-02 00:36:58,283 - INFO - Progress: 23/65 routes processed
+2026-01-02 00:36:58,283 - INFO - API calls made: 46
+2026-01-02 00:36:58,283 - INFO - Unique OTAs found so far: 47
+2026-01-02 00:36:58,283 - INFO - 
+============================================================
+2026-01-02 00:36:58,283 - INFO - Processing route 24/65: Dallas to Lisbon
+2026-01-02 00:36:58,284 - INFO - ============================================================
+2026-01-02 00:36:58,284 - INFO - Searching flights for route 24: Dallas to Lisbon
+2026-01-02 00:37:00,978 - INFO - Found 24 flights for route 24
+2026-01-02 00:37:01,980 - INFO - Getting booking options for route 24
+2026-01-02 00:37:04,554 - INFO - Found OTA: Air Canada (airline: True) on route 24
+2026-01-02 00:37:04,555 - INFO - Found OTA: Air Canada (airline: True) on route 24
+2026-01-02 00:37:04,555 - INFO - Found OTA: Air Canada (airline: True) on route 24
+2026-01-02 00:37:04,555 - INFO - Found OTA: United (airline: True) on route 24
+2026-01-02 00:37:04,555 - INFO - Found OTA: Booking.com (airline: False) on route 24
+2026-01-02 00:37:04,555 - INFO - Found OTA: SmartFares (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: FlightHub (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: business-class.com (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: Justfly.com (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: Mytrip (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: Flightnetwork (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: Gotogate (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: Ovago (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Found OTA: martiGO (airline: False) on route 24
+2026-01-02 00:37:04,556 - INFO - Progress: 24/65 routes processed
+2026-01-02 00:37:04,556 - INFO - API calls made: 48
+2026-01-02 00:37:04,557 - INFO - Unique OTAs found so far: 50
+2026-01-02 00:37:04,557 - INFO - 
+============================================================
+2026-01-02 00:37:04,557 - INFO - Processing route 25/65: Seattle to London Gatwick
+2026-01-02 00:37:04,557 - INFO - ============================================================
+2026-01-02 00:37:04,557 - INFO - Searching flights for route 25: Seattle to London Gatwick
+2026-01-02 00:37:06,857 - INFO - Found 37 flights for route 25
+2026-01-02 00:37:07,859 - INFO - Getting booking options for route 25
+2026-01-02 00:37:09,462 - INFO - Found OTA: United (airline: True) on route 25
+2026-01-02 00:37:09,462 - INFO - Found OTA: SWISS (airline: True) on route 25
+2026-01-02 00:37:09,462 - INFO - Progress: 25/65 routes processed
+2026-01-02 00:37:09,462 - INFO - API calls made: 50
+2026-01-02 00:37:09,463 - INFO - Unique OTAs found so far: 51
+2026-01-02 00:37:09,463 - INFO - 
+============================================================
+2026-01-02 00:37:09,463 - INFO - Processing route 26/65: Washington DC to Vienna
+2026-01-02 00:37:09,463 - INFO - ============================================================
+2026-01-02 00:37:09,463 - INFO - Searching flights for route 26: Washington DC to Vienna
+2026-01-02 00:37:11,218 - INFO - Found 86 flights for route 26
+2026-01-02 00:37:12,219 - INFO - Getting booking options for route 26
+2026-01-02 00:37:13,825 - INFO - Found OTA: Turkish Airlines (airline: True) on route 26
+2026-01-02 00:37:13,825 - INFO - Found OTA: Turkish Airlines (airline: True) on route 26
+2026-01-02 00:37:13,825 - INFO - Found OTA: Turkish Airlines (airline: True) on route 26
+2026-01-02 00:37:13,825 - INFO - Progress: 26/65 routes processed
+2026-01-02 00:37:13,825 - INFO - API calls made: 52
+2026-01-02 00:37:13,826 - INFO - Unique OTAs found so far: 51
+2026-01-02 00:37:13,826 - INFO - 
+============================================================
+2026-01-02 00:37:13,826 - INFO - Processing route 27/65: Philadelphia to Dublin
+2026-01-02 00:37:13,826 - INFO - ============================================================
+2026-01-02 00:37:13,826 - INFO - Searching flights for route 27: Philadelphia to Dublin
+2026-01-02 00:37:15,418 - INFO - Found 103 flights for route 27
+2026-01-02 00:37:16,420 - INFO - Getting booking options for route 27
+2026-01-02 00:37:20,447 - INFO - Found OTA: United (airline: True) on route 27
+2026-01-02 00:37:20,447 - INFO - Found OTA: United (airline: True) on route 27
+2026-01-02 00:37:20,447 - INFO - Found OTA: United (airline: True) on route 27
+2026-01-02 00:37:20,447 - INFO - Progress: 27/65 routes processed
+2026-01-02 00:37:20,447 - INFO - API calls made: 54
+2026-01-02 00:37:20,447 - INFO - Unique OTAs found so far: 51
+2026-01-02 00:37:20,447 - INFO - 
+============================================================
+2026-01-02 00:37:20,447 - INFO - Processing route 28/65: Denver to Zurich
+2026-01-02 00:37:20,448 - INFO - ============================================================
+2026-01-02 00:37:20,448 - INFO - Searching flights for route 28: Denver to Zurich
+2026-01-02 00:37:22,387 - INFO - Found 52 flights for route 28
+2026-01-02 00:37:23,389 - INFO - Getting booking options for route 28
+2026-01-02 00:37:25,180 - INFO - Found OTA: SWISS (airline: True) on route 28
+2026-01-02 00:37:25,180 - INFO - Found OTA: Booking.com (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: Adam Vacations (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: Trip.com (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: eDreams (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: business-class.com (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: Gotogate (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: OneTravel (airline: False) on route 28
+2026-01-02 00:37:25,181 - INFO - Found OTA: FlightHub (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: Mytrip (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: CheapOair (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: Travomint (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: OOJO (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: eSky (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: Ovago (airline: False) on route 28
+2026-01-02 00:37:25,182 - INFO - Found OTA: Justfly.com (airline: False) on route 28
+2026-01-02 00:37:25,183 - INFO - Found OTA: SmartFares (airline: False) on route 28
+2026-01-02 00:37:25,183 - INFO - Found OTA: AranGrant (airline: False) on route 28
+2026-01-02 00:37:25,183 - INFO - Found OTA: ScholarTrip (airline: False) on route 28
+2026-01-02 00:37:25,183 - INFO - Found OTA: martiGO (airline: False) on route 28
+2026-01-02 00:37:25,183 - INFO - Progress: 28/65 routes processed
+2026-01-02 00:37:25,183 - INFO - API calls made: 56
+2026-01-02 00:37:25,183 - INFO - Unique OTAs found so far: 52
+2026-01-02 00:37:25,183 - INFO - 
+============================================================
+2026-01-02 00:37:25,184 - INFO - Processing route 29/65: Detroit to Copenhagen
+2026-01-02 00:37:25,184 - INFO - ============================================================
+2026-01-02 00:37:25,184 - INFO - Searching flights for route 29: Detroit to Copenhagen
+2026-01-02 00:37:27,485 - INFO - Found 29 flights for route 29
+2026-01-02 00:37:28,486 - INFO - Getting booking options for route 29
+2026-01-02 00:37:30,273 - INFO - Found OTA: WestJet (airline: True) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: WestJet (airline: True) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: WestJet (airline: True) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: eDreams (airline: False) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: Trip.com (airline: False) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: FlightHub (airline: False) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: Justfly.com (airline: False) on route 29
+2026-01-02 00:37:30,274 - INFO - Found OTA: Travomint (airline: False) on route 29
+2026-01-02 00:37:30,275 - INFO - Found OTA: BYOjet (airline: False) on route 29
+2026-01-02 00:37:30,275 - INFO - Progress: 29/65 routes processed
+2026-01-02 00:37:30,275 - INFO - API calls made: 58
+2026-01-02 00:37:30,275 - INFO - Unique OTAs found so far: 53
+2026-01-02 00:37:30,275 - INFO - 
+============================================================
+2026-01-02 00:37:30,275 - INFO - Processing route 30/65: Minneapolis to Stockholm
+2026-01-02 00:37:30,276 - INFO - ============================================================
+2026-01-02 00:37:30,276 - INFO - Searching flights for route 30: Minneapolis to Stockholm
+2026-01-02 00:37:32,739 - INFO - Found 71 flights for route 30
+2026-01-02 00:37:33,740 - INFO - Getting booking options for route 30
+2026-01-02 00:37:36,641 - INFO - Found OTA: KLM (airline: True) on route 30
+2026-01-02 00:37:36,641 - INFO - Found OTA: Delta (airline: True) on route 30
+2026-01-02 00:37:36,642 - INFO - Progress: 30/65 routes processed
+2026-01-02 00:37:36,642 - INFO - API calls made: 60
+2026-01-02 00:37:36,642 - INFO - Unique OTAs found so far: 54
+2026-01-02 00:37:36,642 - INFO - 
+============================================================
+2026-01-02 00:37:36,642 - INFO - Processing route 31/65: Los Angeles to Tokyo
+2026-01-02 00:37:36,642 - INFO - ============================================================
+2026-01-02 00:37:36,642 - INFO - Searching flights for route 31: Los Angeles to Tokyo
+2026-01-02 00:37:38,636 - INFO - Found 37 flights for route 31
+2026-01-02 00:37:39,638 - INFO - Getting booking options for route 31
+2026-01-02 00:37:43,412 - INFO - Found OTA: ZIPAIR Tokyo (airline: True) on route 31
+2026-01-02 00:37:43,413 - INFO - Found OTA: Traveloka (airline: False) on route 31
+2026-01-02 00:37:43,413 - INFO - Found OTA: BudgetAir (airline: False) on route 31
+2026-01-02 00:37:43,413 - INFO - Found OTA: eSky (airline: False) on route 31
+2026-01-02 00:37:43,413 - INFO - Found OTA: Gotogate (airline: False) on route 31
+2026-01-02 00:37:43,413 - INFO - Found OTA: Flightnetwork (airline: False) on route 31
+2026-01-02 00:37:43,413 - INFO - Progress: 31/65 routes processed
+2026-01-02 00:37:43,413 - INFO - API calls made: 62
+2026-01-02 00:37:43,414 - INFO - Unique OTAs found so far: 56
+2026-01-02 00:37:43,414 - INFO - 
+============================================================
+2026-01-02 00:37:43,414 - INFO - Processing route 32/65: San Francisco to Bangkok
+2026-01-02 00:37:43,414 - INFO - ============================================================
+2026-01-02 00:37:43,414 - INFO - Searching flights for route 32: San Francisco to Bangkok
+2026-01-02 00:37:46,675 - INFO - Found 70 flights for route 32
+2026-01-02 00:37:47,676 - INFO - Getting booking options for route 32
+2026-01-02 00:37:55,354 - INFO - Found OTA: Korean Air (airline: True) on route 32
+2026-01-02 00:37:55,355 - INFO - Found OTA: Korean Air (airline: True) on route 32
+2026-01-02 00:37:55,355 - INFO - Found OTA: Korean Air (airline: True) on route 32
+2026-01-02 00:37:55,356 - INFO - Found OTA: Delta (airline: True) on route 32
+2026-01-02 00:37:55,356 - INFO - Found OTA: Trip.com (airline: False) on route 32
+2026-01-02 00:37:55,356 - INFO - Found OTA: eDreams (airline: False) on route 32
+2026-01-02 00:37:55,357 - INFO - Found OTA: business-class.com (airline: False) on route 32
+2026-01-02 00:37:55,357 - INFO - Found OTA: Adam Vacations (airline: False) on route 32
+2026-01-02 00:37:55,358 - INFO - Found OTA: OOJO (airline: False) on route 32
+2026-01-02 00:37:55,358 - INFO - Found OTA: OneTravel (airline: False) on route 32
+2026-01-02 00:37:55,358 - INFO - Found OTA: FlightHub (airline: False) on route 32
+2026-01-02 00:37:55,359 - INFO - Found OTA: Justfly.com (airline: False) on route 32
+2026-01-02 00:37:55,359 - INFO - Found OTA: CheapOair (airline: False) on route 32
+2026-01-02 00:37:55,359 - INFO - Found OTA: Kiwi.com (airline: False) on route 32
+2026-01-02 00:37:55,360 - INFO - Found OTA: Travomint (airline: False) on route 32
+2026-01-02 00:37:55,360 - INFO - Found OTA: Mytrip (airline: False) on route 32
+2026-01-02 00:37:55,360 - INFO - Found OTA: Gotogate (airline: False) on route 32
+2026-01-02 00:37:55,361 - INFO - Found OTA: ScholarTrip (airline: False) on route 32
+2026-01-02 00:37:55,361 - INFO - Found OTA: Ovago (airline: False) on route 32
+2026-01-02 00:37:55,362 - INFO - Found OTA: martiGO (airline: False) on route 32
+2026-01-02 00:37:55,362 - INFO - Found OTA: Flightnetwork (airline: False) on route 32
+2026-01-02 00:37:55,363 - INFO - Progress: 32/65 routes processed
+2026-01-02 00:37:55,363 - INFO - API calls made: 64
+2026-01-02 00:37:55,363 - INFO - Unique OTAs found so far: 57
+2026-01-02 00:37:55,363 - INFO - 
+============================================================
+2026-01-02 00:37:55,363 - INFO - Processing route 33/65: NYC to Hong Kong
+2026-01-02 00:37:55,363 - INFO - ============================================================
+2026-01-02 00:37:55,363 - INFO - Searching flights for route 33: NYC to Hong Kong
+2026-01-02 00:37:57,771 - INFO - Found 59 flights for route 33
+2026-01-02 00:37:58,773 - INFO - Getting booking options for route 33
+2026-01-02 00:38:04,244 - INFO - Found OTA: Korean Air (airline: True) on route 33
+2026-01-02 00:38:04,244 - INFO - Found OTA: Korean Air (airline: True) on route 33
+2026-01-02 00:38:04,244 - INFO - Found OTA: Korean Air (airline: True) on route 33
+2026-01-02 00:38:04,244 - INFO - Found OTA: Delta (airline: True) on route 33
+2026-01-02 00:38:04,244 - INFO - Found OTA: Adam Vacations (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: FlightHub (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: business-class.com (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: Justfly.com (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: Travomint (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: ScholarTrip (airline: False) on route 33
+2026-01-02 00:38:04,245 - INFO - Found OTA: Ovago (airline: False) on route 33
+2026-01-02 00:38:04,246 - INFO - Found OTA: martiGO (airline: False) on route 33
+2026-01-02 00:38:04,246 - INFO - Progress: 33/65 routes processed
+2026-01-02 00:38:04,246 - INFO - API calls made: 66
+2026-01-02 00:38:04,246 - INFO - Unique OTAs found so far: 57
+2026-01-02 00:38:04,246 - INFO - 
+============================================================
+2026-01-02 00:38:04,246 - INFO - Processing route 34/65: Seattle to Singapore
+2026-01-02 00:38:04,246 - INFO - ============================================================
+2026-01-02 00:38:04,246 - INFO - Searching flights for route 34: Seattle to Singapore
+2026-01-02 00:38:06,690 - INFO - Found 124 flights for route 34
+2026-01-02 00:38:07,691 - INFO - Getting booking options for route 34
+2026-01-02 00:38:10,597 - INFO - Found OTA: Asiana Airlines (airline: True) on route 34
+2026-01-02 00:38:10,597 - INFO - Found OTA: Booking.com (airline: False) on route 34
+2026-01-02 00:38:10,597 - INFO - Found OTA: FlightHub (airline: False) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: Justfly.com (airline: False) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: business-class.com (airline: False) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: United (airline: True) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: Adam Vacations (airline: False) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: Gotogate (airline: False) on route 34
+2026-01-02 00:38:10,598 - INFO - Found OTA: BYOjet (airline: False) on route 34
+2026-01-02 00:38:10,599 - INFO - Found OTA: martiGO (airline: False) on route 34
+2026-01-02 00:38:10,599 - INFO - Found OTA: ScholarTrip (airline: False) on route 34
+2026-01-02 00:38:10,599 - INFO - Progress: 34/65 routes processed
+2026-01-02 00:38:10,599 - INFO - API calls made: 68
+2026-01-02 00:38:10,599 - INFO - Unique OTAs found so far: 58
+2026-01-02 00:38:10,599 - INFO - 
+============================================================
+2026-01-02 00:38:10,599 - INFO - Processing route 35/65: Chicago to Seoul
+2026-01-02 00:38:10,599 - INFO - ============================================================
+2026-01-02 00:38:10,599 - INFO - Searching flights for route 35: Chicago to Seoul
+2026-01-02 00:38:13,217 - INFO - Found 139 flights for route 35
+2026-01-02 00:38:14,218 - INFO - Getting booking options for route 35
+2026-01-02 00:38:16,697 - INFO - Found OTA: WestJet (airline: True) on route 35
+2026-01-02 00:38:16,697 - INFO - Found OTA: WestJet (airline: True) on route 35
+2026-01-02 00:38:16,698 - INFO - Found OTA: WestJet (airline: True) on route 35
+2026-01-02 00:38:16,698 - INFO - Found OTA: Kiwi.com (airline: False) on route 35
+2026-01-02 00:38:16,698 - INFO - Found OTA: Expedia (airline: False) on route 35
+2026-01-02 00:38:16,699 - INFO - Found OTA: Trip.com (airline: False) on route 35
+2026-01-02 00:38:16,699 - INFO - Found OTA: Priceline (airline: False) on route 35
+2026-01-02 00:38:16,699 - INFO - Found OTA: Justfly.com (airline: False) on route 35
+2026-01-02 00:38:16,700 - INFO - Found OTA: Travel Up (airline: False) on route 35
+2026-01-02 00:38:16,700 - INFO - Found OTA: OOJO (airline: False) on route 35
+2026-01-02 00:38:16,700 - INFO - Found OTA: Orbitz (airline: False) on route 35
+2026-01-02 00:38:16,700 - INFO - Found OTA: FlightHub (airline: False) on route 35
+2026-01-02 00:38:16,701 - INFO - Found OTA: BudgetAir (airline: False) on route 35
+2026-01-02 00:38:16,701 - INFO - Found OTA: BYOjet (airline: False) on route 35
+2026-01-02 00:38:16,701 - INFO - Found OTA: Travelocity (airline: False) on route 35
+2026-01-02 00:38:16,701 - INFO - Progress: 35/65 routes processed
+2026-01-02 00:38:16,701 - INFO - API calls made: 70
+2026-01-02 00:38:16,701 - INFO - Unique OTAs found so far: 61
+2026-01-02 00:38:16,701 - INFO - 
+============================================================
+2026-01-02 00:38:16,701 - INFO - Processing route 36/65: Newark to Delhi
+2026-01-02 00:38:16,701 - INFO - ============================================================
+2026-01-02 00:38:16,702 - INFO - Searching flights for route 36: Newark to Delhi
+2026-01-02 00:38:18,567 - INFO - Found 62 flights for route 36
+2026-01-02 00:38:19,569 - INFO - Getting booking options for route 36
+2026-01-02 00:38:22,099 - INFO - Found OTA: Lufthansa (airline: True) on route 36
+2026-01-02 00:38:22,099 - INFO - Found OTA: Lufthansa (airline: True) on route 36
+2026-01-02 00:38:22,100 - INFO - Found OTA: United (airline: True) on route 36
+2026-01-02 00:38:22,100 - INFO - Found OTA: MakeMyTrip (airline: False) on route 36
+2026-01-02 00:38:22,100 - INFO - Found OTA: Bravofly (airline: False) on route 36
+2026-01-02 00:38:22,100 - INFO - Found OTA: eDreams (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: business-class.com (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: OOJO (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: Gotogate (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: Priceline (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: Kiwi.com (airline: False) on route 36
+2026-01-02 00:38:22,101 - INFO - Found OTA: FlightHub (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: CheapOair (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: Travomint (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: SmartFares (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: Ovago (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: Justfly.com (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: Adam Vacations (airline: False) on route 36
+2026-01-02 00:38:22,102 - INFO - Found OTA: martiGO (airline: False) on route 36
+2026-01-02 00:38:22,103 - INFO - Found OTA: AranGrant (airline: False) on route 36
+2026-01-02 00:38:22,103 - INFO - Progress: 36/65 routes processed
+2026-01-02 00:38:22,103 - INFO - API calls made: 72
+2026-01-02 00:38:22,103 - INFO - Unique OTAs found so far: 64
+2026-01-02 00:38:22,103 - INFO - 
+============================================================
+2026-01-02 00:38:22,103 - INFO - Processing route 37/65: Houston to Shanghai
+2026-01-02 00:38:22,103 - INFO - ============================================================
+2026-01-02 00:38:22,103 - INFO - Searching flights for route 37: Houston to Shanghai
+2026-01-02 00:38:24,066 - INFO - Found 98 flights for route 37
+2026-01-02 00:38:25,068 - INFO - Getting booking options for route 37
+2026-01-02 00:38:27,300 - INFO - Found OTA: ANA (airline: True) on route 37
+2026-01-02 00:38:27,300 - INFO - Found OTA: BYOjet (airline: False) on route 37
+2026-01-02 00:38:27,300 - INFO - Found OTA: business-class.com (airline: False) on route 37
+2026-01-02 00:38:27,300 - INFO - Found OTA: martiGO (airline: False) on route 37
+2026-01-02 00:38:27,301 - INFO - Found OTA: Ovago (airline: False) on route 37
+2026-01-02 00:38:27,301 - INFO - Found OTA: FlightHub (airline: False) on route 37
+2026-01-02 00:38:27,301 - INFO - Found OTA: Justfly.com (airline: False) on route 37
+2026-01-02 00:38:27,301 - INFO - Progress: 37/65 routes processed
+2026-01-02 00:38:27,301 - INFO - API calls made: 74
+2026-01-02 00:38:27,301 - INFO - Unique OTAs found so far: 65
+2026-01-02 00:38:27,302 - INFO - 
+============================================================
+2026-01-02 00:38:27,302 - INFO - Processing route 38/65: Dallas to Tokyo Haneda
+2026-01-02 00:38:27,302 - INFO - ============================================================
+2026-01-02 00:38:27,302 - INFO - Searching flights for route 38: Dallas to Tokyo Haneda
+2026-01-02 00:38:30,174 - INFO - Found 59 flights for route 38
+2026-01-02 00:38:31,183 - INFO - Getting booking options for route 38
+2026-01-02 00:38:34,278 - INFO - Found OTA: Delta (airline: True) on route 38
+2026-01-02 00:38:34,278 - INFO - Found OTA: Delta (airline: True) on route 38
+2026-01-02 00:38:34,278 - INFO - Found OTA: Delta (airline: True) on route 38
+2026-01-02 00:38:34,279 - INFO - Found OTA: Delta (airline: True) on route 38
+2026-01-02 00:38:34,279 - INFO - Progress: 38/65 routes processed
+2026-01-02 00:38:34,279 - INFO - API calls made: 76
+2026-01-02 00:38:34,279 - INFO - Unique OTAs found so far: 65
+2026-01-02 00:38:34,279 - INFO - 
+============================================================
+2026-01-02 00:38:34,280 - INFO - Processing route 39/65: San Francisco to Manila
+2026-01-02 00:38:34,280 - INFO - ============================================================
+2026-01-02 00:38:34,280 - INFO - Searching flights for route 39: San Francisco to Manila
+2026-01-02 00:38:54,246 - INFO - Found 69 flights for route 39
+2026-01-02 00:38:55,247 - INFO - Getting booking options for route 39
+2026-01-02 00:38:56,227 - INFO - Found OTA: STARLUX Airlines (airline: True) on route 39
+2026-01-02 00:38:56,227 - INFO - Found OTA: Booking.com (airline: False) on route 39
+2026-01-02 00:38:56,227 - INFO - Found OTA: Agoda (airline: False) on route 39
+2026-01-02 00:38:56,228 - INFO - Found OTA: Expedia (airline: False) on route 39
+2026-01-02 00:38:56,228 - INFO - Found OTA: Trip.com (airline: False) on route 39
+2026-01-02 00:38:56,228 - INFO - Found OTA: Gotogate (airline: False) on route 39
+2026-01-02 00:38:56,228 - INFO - Found OTA: Mytrip (airline: False) on route 39
+2026-01-02 00:38:56,228 - INFO - Found OTA: Priceline (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: FlightHub (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: CheapOair (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: SmartFares (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: Flightnetwork (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: OOJO (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: Kiwi.com (airline: False) on route 39
+2026-01-02 00:38:56,229 - INFO - Found OTA: BudgetAir (airline: False) on route 39
+2026-01-02 00:38:56,230 - INFO - Found OTA: eDreams (airline: False) on route 39
+2026-01-02 00:38:56,230 - INFO - Found OTA: Ovago (airline: False) on route 39
+2026-01-02 00:38:56,230 - INFO - Found OTA: kiss&fly (airline: False) on route 39
+2026-01-02 00:38:56,230 - INFO - Found OTA: Travelocity (airline: False) on route 39
+2026-01-02 00:38:56,230 - INFO - Progress: 39/65 routes processed
+2026-01-02 00:38:56,230 - INFO - API calls made: 78
+2026-01-02 00:38:56,230 - INFO - Unique OTAs found so far: 67
+2026-01-02 00:38:56,230 - INFO - 
+============================================================
+2026-01-02 00:38:56,231 - INFO - Processing route 40/65: Los Angeles to Taipei
+2026-01-02 00:38:56,231 - INFO - ============================================================
+2026-01-02 00:38:56,231 - INFO - Searching flights for route 40: Los Angeles to Taipei
+2026-01-02 00:38:58,231 - INFO - Found 83 flights for route 40
+2026-01-02 00:38:59,232 - INFO - Getting booking options for route 40
+2026-01-02 00:39:00,469 - INFO - Found OTA: China Airlines (airline: True) on route 40
+2026-01-02 00:39:00,469 - INFO - Found OTA: FlightHub (airline: False) on route 40
+2026-01-02 00:39:00,469 - INFO - Found OTA: OneTravel (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: Justfly.com (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: business-class.com (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: CheapOair (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: Adam Vacations (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: Gotogate (airline: False) on route 40
+2026-01-02 00:39:00,470 - INFO - Found OTA: ScholarTrip (airline: False) on route 40
+2026-01-02 00:39:00,471 - INFO - Found OTA: OOJO (airline: False) on route 40
+2026-01-02 00:39:00,471 - INFO - Found OTA: Ovago (airline: False) on route 40
+2026-01-02 00:39:00,471 - INFO - Found OTA: AranGrant (airline: False) on route 40
+2026-01-02 00:39:00,471 - INFO - Progress: 40/65 routes processed
+2026-01-02 00:39:00,471 - INFO - API calls made: 80
+2026-01-02 00:39:00,471 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:00,472 - INFO - 
+============================================================
+2026-01-02 00:39:00,472 - INFO - Processing route 41/65: Fort Lauderdale to NYC LaGuardia (Spirit/Frontier)
+2026-01-02 00:39:00,472 - INFO - ============================================================
+2026-01-02 00:39:00,472 - INFO - Searching flights for route 41: Fort Lauderdale to NYC LaGuardia (Spirit/Frontier)
+2026-01-02 00:39:02,342 - INFO - Found 116 flights for route 41
+2026-01-02 00:39:03,343 - INFO - Getting booking options for route 41
+2026-01-02 00:39:07,178 - INFO - Found OTA: Spirit (airline: True) on route 41
+2026-01-02 00:39:07,178 - INFO - Progress: 41/65 routes processed
+2026-01-02 00:39:07,178 - INFO - API calls made: 82
+2026-01-02 00:39:07,178 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:07,178 - INFO - 
+============================================================
+2026-01-02 00:39:07,178 - INFO - Processing route 42/65: Baltimore to Orlando (Southwest)
+2026-01-02 00:39:07,178 - INFO - ============================================================
+2026-01-02 00:39:07,178 - INFO - Searching flights for route 42: Baltimore to Orlando (Southwest)
+2026-01-02 00:39:08,570 - INFO - Found 133 flights for route 42
+2026-01-02 00:39:09,573 - INFO - Getting booking options for route 42
+2026-01-02 00:39:10,507 - INFO - Found OTA: Spirit (airline: True) on route 42
+2026-01-02 00:39:10,507 - INFO - Progress: 42/65 routes processed
+2026-01-02 00:39:10,508 - INFO - API calls made: 84
+2026-01-02 00:39:10,508 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:10,508 - INFO - 
+============================================================
+2026-01-02 00:39:10,508 - INFO - Processing route 43/65: Oakland to Las Vegas (Southwest)
+2026-01-02 00:39:10,508 - INFO - ============================================================
+2026-01-02 00:39:10,508 - INFO - Searching flights for route 43: Oakland to Las Vegas (Southwest)
+2026-01-02 00:39:13,741 - INFO - Found 98 flights for route 43
+2026-01-02 00:39:14,742 - INFO - Getting booking options for route 43
+2026-01-02 00:39:17,607 - INFO - Found OTA: Southwest (airline: True) on route 43
+2026-01-02 00:39:17,607 - INFO - Found OTA: Southwest (airline: True) on route 43
+2026-01-02 00:39:17,608 - INFO - Found OTA: Southwest (airline: True) on route 43
+2026-01-02 00:39:17,608 - INFO - Progress: 43/65 routes processed
+2026-01-02 00:39:17,608 - INFO - API calls made: 86
+2026-01-02 00:39:17,608 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:17,608 - INFO - 
+============================================================
+2026-01-02 00:39:17,608 - INFO - Processing route 44/65: Dallas Love to Houston Hobby (Southwest)
+2026-01-02 00:39:17,609 - INFO - ============================================================
+2026-01-02 00:39:17,609 - INFO - Searching flights for route 44: Dallas Love to Houston Hobby (Southwest)
+2026-01-02 00:39:19,913 - INFO - Found 42 flights for route 44
+2026-01-02 00:39:20,914 - INFO - Getting booking options for route 44
+2026-01-02 00:39:22,982 - INFO - Found OTA: Southwest (airline: True) on route 44
+2026-01-02 00:39:22,982 - INFO - Found OTA: Southwest (airline: True) on route 44
+2026-01-02 00:39:22,983 - INFO - Found OTA: Southwest (airline: True) on route 44
+2026-01-02 00:39:22,983 - INFO - Progress: 44/65 routes processed
+2026-01-02 00:39:22,983 - INFO - API calls made: 88
+2026-01-02 00:39:22,983 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:22,983 - INFO - 
+============================================================
+2026-01-02 00:39:22,983 - INFO - Processing route 45/65: Chicago Midway to Denver (Southwest/Frontier)
+2026-01-02 00:39:22,983 - INFO - ============================================================
+2026-01-02 00:39:22,983 - INFO - Searching flights for route 45: Chicago Midway to Denver (Southwest/Frontier)
+2026-01-02 00:39:34,192 - INFO - Found 68 flights for route 45
+2026-01-02 00:39:35,193 - INFO - Getting booking options for route 45
+2026-01-02 00:39:38,019 - INFO - Found OTA: Southwest (airline: True) on route 45
+2026-01-02 00:39:38,019 - INFO - Found OTA: Southwest (airline: True) on route 45
+2026-01-02 00:39:38,019 - INFO - Found OTA: Southwest (airline: True) on route 45
+2026-01-02 00:39:38,020 - INFO - Found OTA: Southwest (airline: True) on route 45
+2026-01-02 00:39:38,020 - INFO - Progress: 45/65 routes processed
+2026-01-02 00:39:38,020 - INFO - API calls made: 90
+2026-01-02 00:39:38,020 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:38,020 - INFO - 
+============================================================
+2026-01-02 00:39:38,020 - INFO - Processing route 46/65: Islip to Fort Myers (Frontier)
+2026-01-02 00:39:38,020 - INFO - ============================================================
+2026-01-02 00:39:38,020 - INFO - Searching flights for route 46: Islip to Fort Myers (Frontier)
+2026-01-02 00:39:41,540 - INFO - Found 21 flights for route 46
+2026-01-02 00:39:42,542 - INFO - Getting booking options for route 46
+2026-01-02 00:39:51,236 - INFO - Found OTA: Southwest (airline: True) on route 46
+2026-01-02 00:39:51,236 - INFO - Found OTA: Southwest (airline: True) on route 46
+2026-01-02 00:39:51,236 - INFO - Found OTA: Southwest (airline: True) on route 46
+2026-01-02 00:39:51,236 - INFO - Progress: 46/65 routes processed
+2026-01-02 00:39:51,236 - INFO - API calls made: 92
+2026-01-02 00:39:51,236 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:39:51,236 - INFO - 
+============================================================
+2026-01-02 00:39:51,237 - INFO - Processing route 47/65: Hartford to West Palm Beach (Spirit)
+2026-01-02 00:39:51,237 - INFO - ============================================================
+2026-01-02 00:39:51,237 - INFO - Searching flights for route 47: Hartford to West Palm Beach (Spirit)
+2026-01-02 00:39:52,526 - INFO - Found 103 flights for route 47
+2026-01-02 00:39:53,527 - INFO - Getting booking options for route 47
+2026-01-02 00:40:00,717 - INFO - Found OTA: Delta (airline: True) on route 47
+2026-01-02 00:40:00,717 - INFO - Found OTA: Delta (airline: True) on route 47
+2026-01-02 00:40:00,717 - INFO - Found OTA: Delta (airline: True) on route 47
+2026-01-02 00:40:00,717 - INFO - Found OTA: Delta (airline: True) on route 47
+2026-01-02 00:40:00,718 - INFO - Progress: 47/65 routes processed
+2026-01-02 00:40:00,718 - INFO - API calls made: 94
+2026-01-02 00:40:00,718 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:00,718 - INFO - 
+============================================================
+2026-01-02 00:40:00,718 - INFO - Processing route 48/65: Providence to Fort Lauderdale (Spirit)
+2026-01-02 00:40:00,718 - INFO - ============================================================
+2026-01-02 00:40:00,719 - INFO - Searching flights for route 48: Providence to Fort Lauderdale (Spirit)
+2026-01-02 00:40:03,083 - INFO - Found 66 flights for route 48
+2026-01-02 00:40:04,085 - INFO - Getting booking options for route 48
+2026-01-02 00:40:15,742 - INFO - Found OTA: JetBlue (airline: True) on route 48
+2026-01-02 00:40:15,743 - INFO - Found OTA: JetBlue (airline: True) on route 48
+2026-01-02 00:40:15,743 - INFO - Found OTA: JetBlue (airline: True) on route 48
+2026-01-02 00:40:15,743 - INFO - Found OTA: JetBlue (airline: True) on route 48
+2026-01-02 00:40:15,743 - INFO - Progress: 48/65 routes processed
+2026-01-02 00:40:15,743 - INFO - API calls made: 96
+2026-01-02 00:40:15,743 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:15,743 - INFO - 
+============================================================
+2026-01-02 00:40:15,743 - INFO - Processing route 49/65: Albuquerque to Ontario CA (Frontier)
+2026-01-02 00:40:15,744 - INFO - ============================================================
+2026-01-02 00:40:15,744 - INFO - Searching flights for route 49: Albuquerque to Ontario CA (Frontier)
+2026-01-02 00:40:19,222 - INFO - Found 130 flights for route 49
+2026-01-02 00:40:20,224 - INFO - Getting booking options for route 49
+2026-01-02 00:40:21,968 - INFO - Found OTA: American (airline: True) on route 49
+2026-01-02 00:40:21,968 - INFO - Found OTA: American (airline: True) on route 49
+2026-01-02 00:40:21,969 - INFO - Found OTA: American (airline: True) on route 49
+2026-01-02 00:40:21,969 - INFO - Found OTA: American (airline: True) on route 49
+2026-01-02 00:40:21,969 - INFO - Found OTA: American (airline: True) on route 49
+2026-01-02 00:40:21,969 - INFO - Progress: 49/65 routes processed
+2026-01-02 00:40:21,969 - INFO - API calls made: 98
+2026-01-02 00:40:21,969 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:21,969 - INFO - 
+============================================================
+2026-01-02 00:40:21,969 - INFO - Processing route 50/65: San Jose to Orange County (Southwest)
+2026-01-02 00:40:21,969 - INFO - ============================================================
+2026-01-02 00:40:21,970 - INFO - Searching flights for route 50: San Jose to Orange County (Southwest)
+2026-01-02 00:40:24,100 - INFO - Found 125 flights for route 50
+2026-01-02 00:40:25,102 - INFO - Getting booking options for route 50
+2026-01-02 00:40:26,690 - INFO - Found OTA: United (airline: True) on route 50
+2026-01-02 00:40:26,690 - INFO - Found OTA: United (airline: True) on route 50
+2026-01-02 00:40:26,690 - INFO - Found OTA: United (airline: True) on route 50
+2026-01-02 00:40:26,690 - INFO - Progress: 50/65 routes processed
+2026-01-02 00:40:26,691 - INFO - API calls made: 100
+2026-01-02 00:40:26,691 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:26,691 - INFO - 
+============================================================
+2026-01-02 00:40:26,691 - INFO - Processing route 51/65: Anchorage to Seattle (Alaska)
+2026-01-02 00:40:26,691 - INFO - ============================================================
+2026-01-02 00:40:26,691 - INFO - Searching flights for route 51: Anchorage to Seattle (Alaska)
+2026-01-02 00:40:28,818 - INFO - Found 32 flights for route 51
+2026-01-02 00:40:29,821 - INFO - Getting booking options for route 51
+2026-01-02 00:40:31,135 - INFO - Found OTA: Alaska (airline: True) on route 51
+2026-01-02 00:40:31,135 - INFO - Found OTA: Alaska (airline: True) on route 51
+2026-01-02 00:40:31,135 - INFO - Found OTA: Alaska (airline: True) on route 51
+2026-01-02 00:40:31,135 - INFO - Found OTA: Hawaiian (airline: True) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: SmartFares (airline: False) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: Travomint (airline: False) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: Priceline (airline: False) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: business-class.com (airline: False) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: Ovago (airline: False) on route 51
+2026-01-02 00:40:31,136 - INFO - Found OTA: FlightHub (airline: False) on route 51
+2026-01-02 00:40:31,137 - INFO - Found OTA: CheapOair (airline: False) on route 51
+2026-01-02 00:40:31,137 - INFO - Found OTA: Justfly.com (airline: False) on route 51
+2026-01-02 00:40:31,137 - INFO - Progress: 51/65 routes processed
+2026-01-02 00:40:31,137 - INFO - API calls made: 102
+2026-01-02 00:40:31,137 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:31,137 - INFO - 
+============================================================
+2026-01-02 00:40:31,137 - INFO - Processing route 52/65: Portland to Anchorage (Alaska)
+2026-01-02 00:40:31,137 - INFO - ============================================================
+2026-01-02 00:40:31,138 - INFO - Searching flights for route 52: Portland to Anchorage (Alaska)
+2026-01-02 00:40:32,694 - INFO - Found 111 flights for route 52
+2026-01-02 00:40:33,696 - INFO - Getting booking options for route 52
+2026-01-02 00:40:36,261 - INFO - Found OTA: Alaska (airline: True) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: Alaska (airline: True) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: Alaska (airline: True) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: Hawaiian (airline: True) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: Travomint (airline: False) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: Ovago (airline: False) on route 52
+2026-01-02 00:40:36,262 - INFO - Found OTA: business-class.com (airline: False) on route 52
+2026-01-02 00:40:36,263 - INFO - Found OTA: FlightHub (airline: False) on route 52
+2026-01-02 00:40:36,263 - INFO - Found OTA: Justfly.com (airline: False) on route 52
+2026-01-02 00:40:36,263 - INFO - Progress: 52/65 routes processed
+2026-01-02 00:40:36,263 - INFO - API calls made: 104
+2026-01-02 00:40:36,263 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:36,263 - INFO - 
+============================================================
+2026-01-02 00:40:36,263 - INFO - Processing route 53/65: Boston to Buffalo (JetBlue)
+2026-01-02 00:40:36,264 - INFO - ============================================================
+2026-01-02 00:40:36,264 - INFO - Searching flights for route 53: Boston to Buffalo (JetBlue)
+2026-01-02 00:40:38,095 - INFO - Found 72 flights for route 53
+2026-01-02 00:40:39,097 - INFO - Getting booking options for route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: JetBlue (airline: True) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: JetBlue (airline: True) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: JetBlue (airline: True) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: JetBlue (airline: True) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: Trip.com (airline: False) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: Priceline (airline: False) on route 53
+2026-01-02 00:40:40,921 - INFO - Found OTA: CheapOair (airline: False) on route 53
+2026-01-02 00:40:40,921 - INFO - Progress: 53/65 routes processed
+2026-01-02 00:40:40,921 - INFO - API calls made: 106
+2026-01-02 00:40:40,922 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:40,922 - INFO - 
+============================================================
+2026-01-02 00:40:40,922 - INFO - Processing route 54/65: NYC to Syracuse (JetBlue)
+2026-01-02 00:40:40,922 - INFO - ============================================================
+2026-01-02 00:40:40,922 - INFO - Searching flights for route 54: NYC to Syracuse (JetBlue)
+2026-01-02 00:40:41,688 - INFO - Found 16 flights for route 54
+2026-01-02 00:40:42,689 - INFO - Getting booking options for route 54
+2026-01-02 00:40:45,405 - INFO - Found OTA: Delta (airline: True) on route 54
+2026-01-02 00:40:45,405 - INFO - Found OTA: Delta (airline: True) on route 54
+2026-01-02 00:40:45,405 - INFO - Found OTA: Delta (airline: True) on route 54
+2026-01-02 00:40:45,405 - INFO - Found OTA: Delta (airline: True) on route 54
+2026-01-02 00:40:45,406 - INFO - Progress: 54/65 routes processed
+2026-01-02 00:40:45,406 - INFO - API calls made: 108
+2026-01-02 00:40:45,406 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:45,406 - INFO - 
+============================================================
+2026-01-02 00:40:45,406 - INFO - Processing route 55/65: Bozeman to Salt Lake City
+2026-01-02 00:40:45,406 - INFO - ============================================================
+2026-01-02 00:40:45,406 - INFO - Searching flights for route 55: Bozeman to Salt Lake City
+2026-01-02 00:40:48,081 - INFO - Found 135 flights for route 55
+2026-01-02 00:40:49,082 - INFO - Getting booking options for route 55
+2026-01-02 00:40:53,332 - INFO - Found OTA: Delta (airline: True) on route 55
+2026-01-02 00:40:53,332 - INFO - Found OTA: Delta (airline: True) on route 55
+2026-01-02 00:40:53,332 - INFO - Found OTA: Delta (airline: True) on route 55
+2026-01-02 00:40:53,333 - INFO - Found OTA: Delta (airline: True) on route 55
+2026-01-02 00:40:53,333 - INFO - Progress: 55/65 routes processed
+2026-01-02 00:40:53,333 - INFO - API calls made: 110
+2026-01-02 00:40:53,333 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:53,333 - INFO - 
+============================================================
+2026-01-02 00:40:53,334 - INFO - Processing route 56/65: Spokane to Seattle (Alaska)
+2026-01-02 00:40:53,334 - INFO - ============================================================
+2026-01-02 00:40:53,334 - INFO - Searching flights for route 56: Spokane to Seattle (Alaska)
+2026-01-02 00:40:56,016 - INFO - Found 58 flights for route 56
+2026-01-02 00:40:57,018 - INFO - Getting booking options for route 56
+2026-01-02 00:40:58,688 - INFO - Found OTA: Alaska (airline: True) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: Alaska (airline: True) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: Alaska (airline: True) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: Travomint (airline: False) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: business-class.com (airline: False) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: Ovago (airline: False) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: FlightHub (airline: False) on route 56
+2026-01-02 00:40:58,689 - INFO - Found OTA: Justfly.com (airline: False) on route 56
+2026-01-02 00:40:58,689 - INFO - Progress: 56/65 routes processed
+2026-01-02 00:40:58,689 - INFO - API calls made: 112
+2026-01-02 00:40:58,689 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:40:58,689 - INFO - 
+============================================================
+2026-01-02 00:40:58,689 - INFO - Processing route 57/65: Boise to Portland
+2026-01-02 00:40:58,690 - INFO - ============================================================
+2026-01-02 00:40:58,690 - INFO - Searching flights for route 57: Boise to Portland
+2026-01-02 00:41:00,890 - INFO - Found 94 flights for route 57
+2026-01-02 00:41:01,892 - INFO - Getting booking options for route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: Alaska (airline: True) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: Alaska (airline: True) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: Alaska (airline: True) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: Travomint (airline: False) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: business-class.com (airline: False) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: FlightHub (airline: False) on route 57
+2026-01-02 00:41:03,042 - INFO - Found OTA: Ovago (airline: False) on route 57
+2026-01-02 00:41:03,043 - INFO - Found OTA: Justfly.com (airline: False) on route 57
+2026-01-02 00:41:03,043 - INFO - Progress: 57/65 routes processed
+2026-01-02 00:41:03,043 - INFO - API calls made: 114
+2026-01-02 00:41:03,043 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:41:03,043 - INFO - 
+============================================================
+2026-01-02 00:41:03,043 - INFO - Processing route 58/65: Fairbanks to Anchorage (Alaska)
+2026-01-02 00:41:03,043 - INFO - ============================================================
+2026-01-02 00:41:03,044 - INFO - Searching flights for route 58: Fairbanks to Anchorage (Alaska)
+2026-01-02 00:41:05,631 - INFO - Found 182 flights for route 58
+2026-01-02 00:41:06,633 - INFO - Getting booking options for route 58
+2026-01-02 00:41:07,898 - INFO - Found OTA: Alaska (airline: True) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: Alaska (airline: True) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: Travomint (airline: False) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: business-class.com (airline: False) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: FlightHub (airline: False) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: Ovago (airline: False) on route 58
+2026-01-02 00:41:07,899 - INFO - Found OTA: Justfly.com (airline: False) on route 58
+2026-01-02 00:41:07,899 - INFO - Progress: 58/65 routes processed
+2026-01-02 00:41:07,899 - INFO - API calls made: 116
+2026-01-02 00:41:07,899 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:41:07,900 - INFO - 
+============================================================
+2026-01-02 00:41:07,900 - INFO - Processing route 59/65: Palm Springs to San Francisco
+2026-01-02 00:41:07,900 - INFO - ============================================================
+2026-01-02 00:41:07,900 - INFO - Searching flights for route 59: Palm Springs to San Francisco
+2026-01-02 00:41:11,518 - INFO - Found 32 flights for route 59
+2026-01-02 00:41:12,520 - INFO - Getting booking options for route 59
+2026-01-02 00:41:16,432 - INFO - Found OTA: Alaska (airline: True) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: Alaska (airline: True) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: Alaska (airline: True) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: American (airline: True) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: Travomint (airline: False) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: business-class.com (airline: False) on route 59
+2026-01-02 00:41:16,433 - INFO - Found OTA: Ovago (airline: False) on route 59
+2026-01-02 00:41:16,434 - INFO - Found OTA: FlightHub (airline: False) on route 59
+2026-01-02 00:41:16,434 - INFO - Found OTA: Justfly.com (airline: False) on route 59
+2026-01-02 00:41:16,434 - INFO - Progress: 59/65 routes processed
+2026-01-02 00:41:16,434 - INFO - API calls made: 118
+2026-01-02 00:41:16,434 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:41:16,434 - INFO - 
+============================================================
+2026-01-02 00:41:16,434 - INFO - Processing route 60/65: Reno to Los Angeles
+2026-01-02 00:41:16,435 - INFO - ============================================================
+2026-01-02 00:41:16,435 - INFO - Searching flights for route 60: Reno to Los Angeles
+2026-01-02 00:41:17,924 - INFO - Found 42 flights for route 60
+2026-01-02 00:41:18,926 - INFO - Getting booking options for route 60
+2026-01-02 00:41:20,251 - INFO - Found OTA: United (airline: True) on route 60
+2026-01-02 00:41:20,251 - INFO - Found OTA: United (airline: True) on route 60
+2026-01-02 00:41:20,251 - INFO - Found OTA: United (airline: True) on route 60
+2026-01-02 00:41:20,252 - INFO - Found OTA: United (airline: True) on route 60
+2026-01-02 00:41:20,252 - INFO - Found OTA: United (airline: True) on route 60
+2026-01-02 00:41:20,252 - INFO - Progress: 60/65 routes processed
+2026-01-02 00:41:20,252 - INFO - API calls made: 120
+2026-01-02 00:41:20,252 - INFO - Unique OTAs found so far: 68
+2026-01-02 00:41:20,252 - INFO - 
+============================================================
+2026-01-02 00:41:20,252 - INFO - Processing route 61/65: London to Paris
+2026-01-02 00:41:20,252 - INFO - ============================================================
+2026-01-02 00:41:20,252 - INFO - Searching flights for route 61: London to Paris
+2026-01-02 00:41:23,810 - INFO - Found 101 flights for route 61
+2026-01-02 00:41:24,811 - INFO - Getting booking options for route 61
+2026-01-02 00:41:29,597 - INFO - Found OTA: British Airways (airline: True) on route 61
+2026-01-02 00:41:29,597 - INFO - Found OTA: Booking.com (airline: False) on route 61
+2026-01-02 00:41:29,597 - INFO - Found OTA: Expedia (airline: False) on route 61
+2026-01-02 00:41:29,597 - INFO - Found OTA: HopeGoo (airline: False) on route 61
+2026-01-02 00:41:29,597 - INFO - Found OTA: Gotogate (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: eDreams (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: Priceline (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: Travel Up (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: Orbitz (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: lastminute.com (airline: False) on route 61
+2026-01-02 00:41:29,598 - INFO - Found OTA: Flightnetwork (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: Travelocity (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: BudgetAir (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: eSky (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: kiss&fly (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: Justfly.com (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Found OTA: martiGO (airline: False) on route 61
+2026-01-02 00:41:29,599 - INFO - Progress: 61/65 routes processed
+2026-01-02 00:41:29,600 - INFO - API calls made: 122
+2026-01-02 00:41:29,600 - INFO - Unique OTAs found so far: 69
+2026-01-02 00:41:29,600 - INFO - 
+============================================================
+2026-01-02 00:41:29,600 - INFO - Processing route 62/65: Rome to Barcelona
+2026-01-02 00:41:29,600 - INFO - ============================================================
+2026-01-02 00:41:29,600 - INFO - Searching flights for route 62: Rome to Barcelona
+2026-01-02 00:41:30,866 - INFO - Found 28 flights for route 62
+2026-01-02 00:41:31,868 - INFO - Getting booking options for route 62
+2026-01-02 00:41:34,648 - INFO - Found OTA: Wizz Air (airline: True) on route 62
+2026-01-02 00:41:34,648 - INFO - Found OTA: eDreams (airline: False) on route 62
+2026-01-02 00:41:34,649 - INFO - Found OTA: Kiwi.com (airline: False) on route 62
+2026-01-02 00:41:34,649 - INFO - Found OTA: Gotogate (airline: False) on route 62
+2026-01-02 00:41:34,649 - INFO - Found OTA: Bravofly (airline: False) on route 62
+2026-01-02 00:41:34,649 - INFO - Progress: 62/65 routes processed
+2026-01-02 00:41:34,649 - INFO - API calls made: 124
+2026-01-02 00:41:34,649 - INFO - Unique OTAs found so far: 70
+2026-01-02 00:41:34,649 - INFO - 
+============================================================
+2026-01-02 00:41:34,649 - INFO - Processing route 63/65: Hong Kong to Tokyo
+2026-01-02 00:41:34,650 - INFO - ============================================================
+2026-01-02 00:41:34,650 - INFO - Searching flights for route 63: Hong Kong to Tokyo
+2026-01-02 00:41:36,875 - INFO - Found 126 flights for route 63
+2026-01-02 00:41:37,877 - INFO - Getting booking options for route 63
+2026-01-02 00:41:39,659 - INFO - Found OTA: Jetstar (airline: True) on route 63
+2026-01-02 00:41:39,659 - INFO - Progress: 63/65 routes processed
+2026-01-02 00:41:39,659 - INFO - API calls made: 126
+2026-01-02 00:41:39,659 - INFO - Unique OTAs found so far: 71
+2026-01-02 00:41:39,660 - INFO - 
+============================================================
+2026-01-02 00:41:39,660 - INFO - Processing route 64/65: Dubai to London
+2026-01-02 00:41:39,660 - INFO - ============================================================
+2026-01-02 00:41:39,660 - INFO - Searching flights for route 64: Dubai to London
+2026-01-02 00:41:42,908 - INFO - Found 123 flights for route 64
+2026-01-02 00:41:43,913 - INFO - Getting booking options for route 64
+2026-01-02 00:41:46,166 - INFO - Found OTA: ITA (airline: True) on route 64
+2026-01-02 00:41:46,166 - INFO - Found OTA: ITA (airline: True) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: ITA (airline: True) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: ITA (airline: True) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: Kiwi.com (airline: False) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: eDreams (airline: False) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: wego (airline: False) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: Gotogate (airline: False) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: Travomint (airline: False) on route 64
+2026-01-02 00:41:46,167 - INFO - Found OTA: martiGO (airline: False) on route 64
+2026-01-02 00:41:46,168 - INFO - Progress: 64/65 routes processed
+2026-01-02 00:41:46,168 - INFO - API calls made: 128
+2026-01-02 00:41:46,168 - INFO - Unique OTAs found so far: 72
+2026-01-02 00:41:46,168 - INFO - 
+============================================================
+2026-01-02 00:41:46,168 - INFO - Processing route 65/65: Singapore to Bangkok
+2026-01-02 00:41:46,168 - INFO - ============================================================
+2026-01-02 00:41:46,168 - INFO - Searching flights for route 65: Singapore to Bangkok
+2026-01-02 00:41:49,602 - INFO - Found 154 flights for route 65
+2026-01-02 00:41:50,604 - INFO - Getting booking options for route 65
+2026-01-02 00:41:59,568 - INFO - Found OTA: Scoot (airline: True) on route 65
+2026-01-02 00:41:59,568 - INFO - Found OTA: Jettzy (airline: False) on route 65
+2026-01-02 00:41:59,568 - INFO - Found OTA: Gotogate (airline: False) on route 65
+2026-01-02 00:41:59,568 - INFO - Found OTA: Mytrip (airline: False) on route 65
+2026-01-02 00:41:59,569 - INFO - Found OTA: Flightnetwork (airline: False) on route 65
+2026-01-02 00:41:59,569 - INFO - Progress: 65/65 routes processed
+2026-01-02 00:41:59,569 - INFO - API calls made: 130
+2026-01-02 00:41:59,569 - INFO - Unique OTAs found so far: 74
+2026-01-02 00:41:59,569 - INFO - 
+============================================================
+2026-01-02 00:41:59,569 - INFO - Scraping completed!
+2026-01-02 00:41:59,570 - INFO - Total API calls made: 130
+2026-01-02 00:41:59,570 - INFO - Total unique OTAs found: 74
+2026-01-02 00:41:59,570 - INFO - ============================================================
+
+2026-01-02 00:41:59,571 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-02 00:41:59,572 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-02 00:41:59,636 - INFO - Saved raw booking data to raw_booking_data.json
+2026-01-02 00:51:33,119 - INFO - Starting to scrape 3 routes
+2026-01-02 00:51:33,119 - INFO - Estimated API calls: 6
+2026-01-02 00:51:33,120 - INFO - 
+============================================================
+2026-01-02 00:51:33,120 - INFO - Processing route 1/3: NYC to Los Angeles
+2026-01-02 00:51:33,121 - INFO - ============================================================
+2026-01-02 00:51:33,121 - INFO - Searching flights for route 1: NYC to Los Angeles
+2026-01-02 00:51:33,182 - INFO - Found 52 flights for route 1
+2026-01-02 00:51:34,183 - INFO - Getting booking options for route 1
+2026-01-02 00:51:34,237 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:51:34,237 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:51:34,237 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:51:34,238 - INFO - Found OTA: JetBlue (airline: True) on route 1
+2026-01-02 00:51:34,238 - INFO - Found OTA: ly.com (airline: False) on route 1
+2026-01-02 00:51:34,238 - INFO - Found OTA: Priceline (airline: False) on route 1
+2026-01-02 00:51:34,238 - INFO - Found OTA: Trip.com (airline: False) on route 1
+2026-01-02 00:51:34,238 - INFO - Found OTA: CheapOair (airline: False) on route 1
+2026-01-02 00:51:34,239 - INFO - Found OTA: HopeGoo (airline: False) on route 1
+2026-01-02 00:51:34,239 - INFO - Found OTA: Fliggy (airline: False) on route 1
+2026-01-02 00:51:34,239 - INFO - Found OTA: BudgetAir (airline: False) on route 1
+2026-01-02 00:51:34,239 - INFO - Found OTA: kiss&fly (airline: False) on route 1
+2026-01-02 00:51:34,239 - INFO - Progress: 1/3 routes processed
+2026-01-02 00:51:34,239 - INFO - API calls made: 2
+2026-01-02 00:51:34,239 - INFO - Unique OTAs found so far: 9
+2026-01-02 00:51:34,239 - INFO - 
+============================================================
+2026-01-02 00:51:34,240 - INFO - Processing route 2/3: Chicago to San Francisco
+2026-01-02 00:51:34,240 - INFO - ============================================================
+2026-01-02 00:51:34,240 - INFO - Searching flights for route 2: Chicago to San Francisco
+2026-01-02 00:51:34,300 - INFO - Found 100 flights for route 2
+2026-01-02 00:51:35,301 - INFO - Getting booking options for route 2
+2026-01-02 00:51:35,352 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:51:35,353 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:51:35,353 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:51:35,353 - INFO - Found OTA: United (airline: True) on route 2
+2026-01-02 00:51:35,353 - INFO - Progress: 2/3 routes processed
+2026-01-02 00:51:35,353 - INFO - API calls made: 4
+2026-01-02 00:51:35,353 - INFO - Unique OTAs found so far: 10
+2026-01-02 00:51:35,353 - INFO - 
+============================================================
+2026-01-02 00:51:35,353 - INFO - Processing route 3/3: Atlanta to Seattle
+2026-01-02 00:51:35,353 - INFO - ============================================================
+2026-01-02 00:51:35,353 - INFO - Searching flights for route 3: Atlanta to Seattle
+2026-01-02 00:51:35,410 - INFO - Found 45 flights for route 3
+2026-01-02 00:51:36,412 - INFO - Getting booking options for route 3
+2026-01-02 00:51:36,463 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: Alaska (airline: True) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: Hawaiian (airline: True) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: Travomint (airline: False) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: Ovago (airline: False) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: business-class.com (airline: False) on route 3
+2026-01-02 00:51:36,464 - INFO - Found OTA: FlightHub (airline: False) on route 3
+2026-01-02 00:51:36,465 - INFO - Found OTA: Justfly.com (airline: False) on route 3
+2026-01-02 00:51:36,465 - INFO - Progress: 3/3 routes processed
+2026-01-02 00:51:36,465 - INFO - API calls made: 6
+2026-01-02 00:51:36,465 - INFO - Unique OTAs found so far: 17
+2026-01-02 00:51:36,465 - INFO - 
+============================================================
+2026-01-02 00:51:36,465 - INFO - Scraping completed!
+2026-01-02 00:51:36,465 - INFO - Total API calls made: 6
+2026-01-02 00:51:36,465 - INFO - Total unique OTAs found: 17
+2026-01-02 00:51:36,466 - INFO - ============================================================
+
+2026-01-02 00:51:36,467 - INFO - Saved JSON whitelist to ota_whitelist.json
+2026-01-02 00:51:36,467 - INFO - Saved CSV whitelist to ota_whitelist.csv
+2026-01-02 00:51:36,471 - INFO - Saved raw booking data to raw_booking_data.json
